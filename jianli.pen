@@ -1,0 +1,1371 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "WnIca",
+      "x": 980,
+      "y": 80,
+      "name": "参考还原 / 斜签信息版",
+      "clip": true,
+      "width": 820,
+      "height": 1120,
+      "fill": "#FFFFFF",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#D8D8D8"
+      },
+      "layout": "vertical",
+      "gap": 12,
+      "padding": [
+        26,
+        28
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Wl2Ic",
+          "name": "标题区",
+          "width": "fill_container",
+          "height": 70,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "YeaBh",
+              "x": 0,
+              "y": 10,
+              "name": "bTitleText",
+              "fill": "#5E8295",
+              "content": "个人简历  |  PERSONAL RESUME",
+              "fontFamily": "Inter",
+              "fontSize": 26,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "hX8ro",
+              "x": 500,
+              "y": 22,
+              "name": "bSlogan",
+              "fill": "#8B8B8B",
+              "content": "努力超越自己，每天进步一点点。",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "KhMXR",
+          "name": "bLineBlue",
+          "fill": "#5E8295",
+          "width": 520,
+          "height": 12
+        },
+        {
+          "type": "rectangle",
+          "id": "z3Y58",
+          "name": "bLineGold",
+          "fill": "#B58E4A",
+          "width": 244,
+          "height": 8
+        },
+        {
+          "type": "frame",
+          "id": "XAyRA",
+          "name": "基本信息块",
+          "width": "fill_container",
+          "height": 188,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#6F93A5"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "6HIg1",
+              "x": 0,
+              "y": 0,
+              "name": "bBasicTab",
+              "fill": "#5E8295",
+              "width": 114,
+              "height": 30
+            },
+            {
+              "type": "text",
+              "id": "d2zGH",
+              "x": 20,
+              "y": 6,
+              "name": "bBasicTabText",
+              "fill": "#FFFFFF",
+              "content": "基本信息",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "uNjUC",
+              "x": 22,
+              "y": 54,
+              "name": "bBasicName",
+              "fill": "#5E8295",
+              "content": "简历狗",
+              "fontFamily": "Inter",
+              "fontSize": 30,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "1EkxZ",
+              "x": 22,
+              "y": 104,
+              "name": "bBasicInfo",
+              "fill": "#5B5B5B",
+              "textGrowth": "fixed-width",
+              "width": 500,
+              "content": "⌂  1995.05.10        ⚥  女        ⌖  重庆        ⌘  本科        ◷  5年经验\n☏  13800138001      ✉  12345@qq.com",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "KZ9Zr",
+              "x": 654,
+              "y": 18,
+              "name": "照片占位",
+              "width": 104,
+              "height": 118,
+              "fill": "#D4DDE2",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#B9C7CF"
+              },
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rr57a",
+                  "name": "bBasicPhotoText",
+                  "fill": "#5E8295",
+                  "content": "证件照",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "24ZAn",
+          "name": "求职意向块",
+          "width": "fill_container",
+          "height": 92,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#6F93A5"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "dTlx8",
+              "x": 0,
+              "y": 0,
+              "name": "bIntentTab",
+              "fill": "#5E8295",
+              "width": 114,
+              "height": 30
+            },
+            {
+              "type": "text",
+              "id": "MC2jR",
+              "x": 20,
+              "y": 6,
+              "name": "bIntentTabText",
+              "fill": "#FFFFFF",
+              "content": "求职意向",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Kxeec",
+              "x": 24,
+              "y": 46,
+              "name": "bIntentBody",
+              "fill": "#5B5B5B",
+              "textGrowth": "fixed-width",
+              "width": 660,
+              "content": "♘  销售经理                       ⌂  重庆                       ◫  12-15K                       ◷  一周内到岗",
+              "lineHeight": 1.6,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JDxGH",
+          "name": "教育背景块",
+          "width": "fill_container",
+          "height": 166,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#6F93A5"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "KCf4j",
+              "x": 0,
+              "y": 0,
+              "name": "bEduTab",
+              "fill": "#5E8295",
+              "width": 114,
+              "height": 30
+            },
+            {
+              "type": "text",
+              "id": "JVVgE",
+              "x": 20,
+              "y": 6,
+              "name": "bEduTabText",
+              "fill": "#FFFFFF",
+              "content": "教育背景",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "kmVfo",
+              "x": 22,
+              "y": 52,
+              "name": "bEduBody",
+              "fill": "#3E3E3E",
+              "textGrowth": "fixed-width",
+              "width": 716,
+              "content": "2020.01 ~ 2022.01                  简历狗                                     市场营销\n专业成绩：GPA 3.66/4（专业前 5%）\n主修课程：基础会计学、货币银行学、统计学、经济法概论、财务会计学、管理学原理、组织行为学、市场营销学、国际贸易理论、国际贸易实务、人力资源开发与管理、质量管理学",
+              "lineHeight": 1.68,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tzVhN",
+          "name": "工作经历块",
+          "width": "fill_container",
+          "height": 190,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#6F93A5"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "567wS",
+              "x": 0,
+              "y": 0,
+              "name": "bWorkTab",
+              "fill": "#5E8295",
+              "width": 114,
+              "height": 30
+            },
+            {
+              "type": "text",
+              "id": "RxFjH",
+              "x": 20,
+              "y": 6,
+              "name": "bWorkTabText",
+              "fill": "#FFFFFF",
+              "content": "工作经历",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "RprTF",
+              "x": 22,
+              "y": 48,
+              "name": "bWorkBody",
+              "fill": "#3E3E3E",
+              "textGrowth": "fixed-width",
+              "width": 716,
+              "content": "2020.01 ~ 2022.01                  简历狗                                     市场调研\n●  市场调研：负责油烟机/燃气灶/热水器/净水器/开关插座等品类的市场分析，搜集竞品资料；\n●  产品运营：整理所有产品相关信息，包括价格、规格、买点等内容并定期进行维护；\n●  根据店铺数据进行消费者画像调研，从年龄、性别、购买偏好等各个维度挖掘产品卖点，确定产品定位；",
+              "lineHeight": 1.68,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8yBPK",
+          "name": "技能特长块",
+          "width": "fill_container",
+          "height": 120,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#6F93A5"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "7JFdU",
+              "x": 0,
+              "y": 0,
+              "name": "bSkillTab",
+              "fill": "#5E8295",
+              "width": 114,
+              "height": 30
+            },
+            {
+              "type": "text",
+              "id": "bBC8K",
+              "x": 20,
+              "y": 6,
+              "name": "bSkillTabText",
+              "fill": "#FFFFFF",
+              "content": "技能特长",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "QzWRx",
+              "x": 22,
+              "y": 52,
+              "name": "bSkillContent",
+              "fill": "#5E8295",
+              "textGrowth": "fixed-width",
+              "width": 710,
+              "content": "沟通能力                     领导能力                     沟通能力\n━━━━━━━  精通        ━━━━━  良好        ━━━━━━  一般",
+              "lineHeight": 1.9,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "z2taq",
+          "name": "自我评价块",
+          "width": "fill_container",
+          "height": 132,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#6F93A5"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "uc6m7",
+              "x": 0,
+              "y": 0,
+              "name": "bEvalTab",
+              "fill": "#5E8295",
+              "width": 114,
+              "height": 30
+            },
+            {
+              "type": "text",
+              "id": "u9L2E",
+              "x": 20,
+              "y": 6,
+              "name": "bEvalTabText",
+              "fill": "#FFFFFF",
+              "content": "自我评价",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "kx58l",
+              "x": 22,
+              "y": 52,
+              "name": "bEvalBody",
+              "fill": "#3E3E3E",
+              "textGrowth": "fixed-width",
+              "width": 716,
+              "content": "对工作持积极认真的态度，责任心强，为人诚恳、细心、乐观、稳重，有良好的团队精神，能快速适应工作环境，并能在实际工作中不断学习、不断完善自己，做好本职工作。",
+              "lineHeight": 1.75,
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "8pW7q",
+      "x": 1860,
+      "y": 80,
+      "name": "参考还原 / 侧栏双栏版",
+      "clip": true,
+      "width": 820,
+      "height": 1130,
+      "fill": "#FFFFFF",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#D7D7D7"
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "tRT02",
+          "x": 0,
+          "y": 0,
+          "name": "左侧栏",
+          "width": 210,
+          "height": 1130,
+          "fill": "#244A6F",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "obd1Q",
+              "x": 40,
+              "y": 34,
+              "name": "照片占位",
+              "width": 100,
+              "height": 126,
+              "fill": "#DCE4EA",
+              "stroke": {
+                "align": "inside",
+                "thickness": 2,
+                "fill": "#FFFFFF"
+              },
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HtgoJ",
+                  "name": "cPhotoText",
+                  "fill": "#244A6F",
+                  "content": "证件照",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "nx0g4",
+              "x": 34,
+              "y": 206,
+              "name": "cAge",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 140,
+              "content": "◉  24 岁",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ET0iR",
+              "x": 34,
+              "y": 258,
+              "name": "cAddr",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 150,
+              "content": "⌖  广东省广州市",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Ip6Ak",
+              "x": 34,
+              "y": 310,
+              "name": "cPhone",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 160,
+              "content": "☏  176000176000",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "JBJ2W",
+              "x": 34,
+              "y": 362,
+              "name": "cMail",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 156,
+              "content": "✉  Me@huanzhucv.com",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "q5xGT",
+              "x": 34,
+              "y": 478,
+              "name": "cSkillTitle",
+              "fill": "#C7D7E4",
+              "content": "技能水平",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "XF20I",
+              "x": 34,
+              "y": 526,
+              "name": "cSkill1",
+              "fill": "#FFFFFF",
+              "content": "Photoshop",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "500"
+            },
+            {
+              "type": "rectangle",
+              "id": "IZeBG",
+              "x": 34,
+              "y": 554,
+              "name": "cSkill1Bg",
+              "fill": "#8CA7BC",
+              "width": 120,
+              "height": 10
+            },
+            {
+              "type": "rectangle",
+              "id": "rqQ9Q",
+              "x": 34,
+              "y": 554,
+              "name": "cSkill1Bar",
+              "fill": "#E9EEF2",
+              "width": 92,
+              "height": 10
+            },
+            {
+              "type": "text",
+              "id": "gbJbj",
+              "x": 34,
+              "y": 586,
+              "name": "cSkill2",
+              "fill": "#FFFFFF",
+              "content": "AI",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "500"
+            },
+            {
+              "type": "rectangle",
+              "id": "VXzvT",
+              "x": 34,
+              "y": 614,
+              "name": "cSkill2Bg",
+              "fill": "#8CA7BC",
+              "width": 120,
+              "height": 10
+            },
+            {
+              "type": "rectangle",
+              "id": "Ndg4H",
+              "x": 34,
+              "y": 614,
+              "name": "cSkill2Bar",
+              "fill": "#E9EEF2",
+              "width": 74,
+              "height": 10
+            },
+            {
+              "type": "text",
+              "id": "WQ0cr",
+              "x": 34,
+              "y": 646,
+              "name": "cSkill3",
+              "fill": "#FFFFFF",
+              "content": "Word / Excel",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "500"
+            },
+            {
+              "type": "rectangle",
+              "id": "dL2gD",
+              "x": 34,
+              "y": 674,
+              "name": "cSkill3Bg",
+              "fill": "#8CA7BC",
+              "width": 120,
+              "height": 10
+            },
+            {
+              "type": "rectangle",
+              "id": "pzszp",
+              "x": 34,
+              "y": 674,
+              "name": "cSkill3Bar",
+              "fill": "#E9EEF2",
+              "width": 106,
+              "height": 10
+            },
+            {
+              "type": "text",
+              "id": "F7bMN",
+              "x": 34,
+              "y": 812,
+              "name": "cHobbyTitle",
+              "fill": "#C7D7E4",
+              "content": "兴趣爱好",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "CPUBN",
+              "x": 34,
+              "y": 866,
+              "name": "cHobbyBody",
+              "fill": "#C7D7E4",
+              "textGrowth": "fixed-width",
+              "width": 136,
+              "content": "影音      篮球\n音乐      电子\n户外      阅读",
+              "lineHeight": 2.1,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "Btc3C",
+          "x": 244,
+          "y": 40,
+          "name": "cName",
+          "fill": "#244A6F",
+          "content": "幻主简历",
+          "fontFamily": "Inter",
+          "fontSize": 34,
+          "fontWeight": "800"
+        },
+        {
+          "type": "text",
+          "id": "f0dkh",
+          "x": 244,
+          "y": 88,
+          "name": "cJob",
+          "fill": "#5F7A90",
+          "content": "求职意向：幻主简历市场专业",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "500"
+        },
+        {
+          "type": "ellipse",
+          "id": "q73po",
+          "x": 244,
+          "y": 146,
+          "name": "cEduDot",
+          "fill": "#244A6F",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "type": "text",
+          "id": "uHZqM",
+          "x": 292,
+          "y": 149,
+          "name": "cEduTitle",
+          "fill": "#244A6F",
+          "content": "教育背景",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "700"
+        },
+        {
+          "type": "rectangle",
+          "id": "reaZN",
+          "x": 392,
+          "y": 164,
+          "name": "cEduLine",
+          "fill": "#7A9AB0",
+          "width": 360,
+          "height": 2
+        },
+        {
+          "type": "text",
+          "id": "pD5ov",
+          "x": 244,
+          "y": 204,
+          "name": "cEduBody",
+          "fill": "#5A7489",
+          "textGrowth": "fixed-width",
+          "width": 520,
+          "content": "2008.9-2012.7           幻主简历科技大学           市场营销（本科）\n基本会计、统计学、市场营销、国际市场营销、市场调查与预测、商业心理学、广告学、公共关系学、货币银行学、经济法、国际贸易、大学英语、经济数学、计算机应用等。\n\n2008.9-2012.7           幻主简历科技大学           市场营销（本科）\n基本会计、统计学、市场营销、国际市场营销、市场调查与预测、商业心理学、广告学、公共关系学、货币银行学、经济法、国际贸易、大学英语、经济数学、计算机应用等。",
+          "lineHeight": 1.75,
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "ellipse",
+          "id": "JYbgQ",
+          "x": 244,
+          "y": 442,
+          "name": "cWorkDot",
+          "fill": "#244A6F",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "type": "text",
+          "id": "cGH92",
+          "x": 292,
+          "y": 445,
+          "name": "cWorkTitle",
+          "fill": "#244A6F",
+          "content": "工作经验",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "700"
+        },
+        {
+          "type": "rectangle",
+          "id": "jfoCp",
+          "x": 392,
+          "y": 460,
+          "name": "cWorkLine",
+          "fill": "#7A9AB0",
+          "width": 360,
+          "height": 2
+        },
+        {
+          "type": "text",
+          "id": "fkLjA",
+          "x": 244,
+          "y": 500,
+          "name": "cWorkBody",
+          "fill": "#5A7489",
+          "textGrowth": "fixed-width",
+          "width": 520,
+          "content": "2009.3-2011.6           幻主简历大学职业发展社           社长\n●  负责社团组织建设、社团机构的管理、协调各部门工作；\n●  组织策划社团的成立大会、竞选会、团队培训、招新等运营活动；\n\n2010.7-2010.9           幻主简历科技集团                 市场部实习生\n●  协助筹备“不同说”大型市场推广广州站系列活动；\n●  作为品牌大使回顾众、来宾和媒体推广一百丁旗下的品牌；\n●  联络各家媒体如南方都市晚报、广州日报、G4 频道对本次活动进行报道。",
+          "lineHeight": 1.72,
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "ellipse",
+          "id": "CQdUq",
+          "x": 244,
+          "y": 756,
+          "name": "cAwardDot",
+          "fill": "#244A6F",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "type": "text",
+          "id": "4eOYM",
+          "x": 292,
+          "y": 759,
+          "name": "cAwardTitle",
+          "fill": "#244A6F",
+          "content": "奖项荣誉",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "700"
+        },
+        {
+          "type": "rectangle",
+          "id": "hm23V",
+          "x": 392,
+          "y": 774,
+          "name": "cAwardLine",
+          "fill": "#7A9AB0",
+          "width": 360,
+          "height": 2
+        },
+        {
+          "type": "text",
+          "id": "QtheW",
+          "x": 244,
+          "y": 810,
+          "name": "cAwardBody",
+          "fill": "#5A7489",
+          "textGrowth": "fixed-width",
+          "width": 520,
+          "content": "2009.10 获国家奖学金\n2010.11 获“三好学生称号”\n2010.12 华南大学生创意营销大赛一等奖\n2011.4 挑战杯创业计划大赛省级铜奖\nCET-6，优秀的听说写能力\n计算机二级，熟悉计算机各项操作\n高级营销员，国家资格证四级",
+          "lineHeight": 1.7,
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "ellipse",
+          "id": "KVC14",
+          "x": 244,
+          "y": 980,
+          "name": "cEvalDot",
+          "fill": "#244A6F",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "type": "text",
+          "id": "2ezda",
+          "x": 292,
+          "y": 983,
+          "name": "cEvalTitle",
+          "fill": "#244A6F",
+          "content": "自我评价",
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "700"
+        },
+        {
+          "type": "rectangle",
+          "id": "1hyKA",
+          "x": 392,
+          "y": 998,
+          "name": "cEvalLine",
+          "fill": "#7A9AB0",
+          "width": 360,
+          "height": 2
+        },
+        {
+          "type": "text",
+          "id": "NKDIM",
+          "x": 244,
+          "y": 1034,
+          "name": "cEvalBody",
+          "fill": "#5A7489",
+          "textGrowth": "fixed-width",
+          "width": 520,
+          "content": "本人是市场营销专业毕业生，有丰富的营销知识和实操基础；对于市场营销方面的前沿和动向有一定了解，善于分析和吸取经验熟悉网络推广，尤其是社会化媒体方面，有独到的见解和实操经验。",
+          "lineHeight": 1.72,
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pJlXs",
+      "x": 100,
+      "y": 80,
+      "name": "参考还原 / 经典蓝灰版",
+      "clip": true,
+      "width": 820,
+      "height": 1200,
+      "fill": "#FFFFFF",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "#D9D9D9"
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "mxo8y",
+          "x": 0,
+          "y": 0,
+          "name": "顶部信息",
+          "width": 820,
+          "height": 196,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hEb8j",
+              "x": 52,
+              "y": 32,
+              "name": "照片占位",
+              "width": 96,
+              "height": 118,
+              "fill": "#D8C9BA",
+              "stroke": {
+                "align": "inside",
+                "thickness": 2,
+                "fill": "#FFFFFF"
+              },
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LyNnP",
+                  "name": "photoText",
+                  "fill": "#FFFFFF",
+                  "content": "照片",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ydEpA",
+              "x": 188,
+              "y": 32,
+              "name": "name",
+              "fill": "#234A6F",
+              "content": "幻主简历",
+              "fontFamily": "Inter",
+              "fontSize": 34,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "q5hIk",
+              "x": 188,
+              "y": 80,
+              "name": "job",
+              "fill": "#666666",
+              "content": "求职意向：市场专员",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "mBF08",
+              "x": 188,
+              "y": 118,
+              "name": "leftInfo",
+              "fill": "#4C4C4C",
+              "textGrowth": "fixed-width",
+              "width": 248,
+              "content": "●  生  日：1995.5\n●  住  址：广州省广州市",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "DNOTi",
+              "x": 528,
+              "y": 30,
+              "name": "banner",
+              "fill": "#234A6F",
+              "width": 196,
+              "height": 46
+            },
+            {
+              "type": "text",
+              "id": "fNwqD",
+              "x": 588,
+              "y": 40,
+              "name": "bannerText",
+              "fill": "#FFFFFF",
+              "content": "个人简历",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "7wMPY",
+              "x": 506,
+              "y": 118,
+              "name": "rightInfo",
+              "fill": "#4C4C4C",
+              "textGrowth": "fixed-width",
+              "width": 256,
+              "content": "☎  电  话：13580111111\n✉  邮  箱：HUANZHU.COM",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "gmS0g",
+          "x": 0,
+          "y": 194,
+          "name": "divLeft",
+          "fill": "#234A6F",
+          "width": 390,
+          "height": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "eghM1",
+          "x": 400,
+          "y": 195,
+          "name": "divMid",
+          "fill": "#6A6A6A",
+          "width": 16,
+          "height": 2
+        },
+        {
+          "type": "rectangle",
+          "id": "MFVJx",
+          "x": 426,
+          "y": 194,
+          "name": "divRight",
+          "fill": "#6A6A6A",
+          "width": 394,
+          "height": 3
+        },
+        {
+          "type": "frame",
+          "id": "txy8w",
+          "x": 0,
+          "y": 220,
+          "name": "教育背景区",
+          "width": 820,
+          "height": 160,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "vOdie",
+              "x": 0,
+              "y": 0,
+              "name": "eduBand",
+              "fill": "#F2F2F2",
+              "width": 820,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "id": "nZ9n5",
+              "x": 16,
+              "y": 7,
+              "name": "eduLabel",
+              "fill": "#234A6F",
+              "width": 104,
+              "height": 26
+            },
+            {
+              "type": "text",
+              "id": "CUi4T",
+              "x": 34,
+              "y": 12,
+              "name": "eduLabelText",
+              "fill": "#FFFFFF",
+              "content": "教育背景",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "t8uva",
+              "x": 36,
+              "y": 56,
+              "name": "eduBody",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 748,
+              "content": "2017.09-2017.06                    广州科技大学                    市场营销（本科）\n主修课程：\n管理学、微观经济学、宏观经济学、管理信息系统、统计学、会计学、财务管理、市场营销、经济法、消费者行为学、国际市场营销",
+              "lineHeight": 1.8,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eLbcG",
+          "x": 0,
+          "y": 394,
+          "name": "实习经历区",
+          "width": 820,
+          "height": 300,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "WbrLq",
+              "x": 0,
+              "y": 0,
+              "name": "internBand",
+              "fill": "#F2F2F2",
+              "width": 820,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "id": "LLw39",
+              "x": 16,
+              "y": 7,
+              "name": "internLabel",
+              "fill": "#234A6F",
+              "width": 104,
+              "height": 26
+            },
+            {
+              "type": "text",
+              "id": "PmrU7",
+              "x": 34,
+              "y": 12,
+              "name": "internLabelText",
+              "fill": "#FFFFFF",
+              "content": "实习经历",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "3FECw",
+              "x": 36,
+              "y": 56,
+              "name": "internBody",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 748,
+              "content": "2016.04-至今                    广州捷信科技有限公司                    市场营销（实习生）\n●  负责公司线上端资源的销售工作（以开拓客户为主），公司主要资源以智汇推、百度、小米、360、沃门户等；\n●  实时了解行业变化，跟踪客户的详细数据，为客户制定更完善的投放计划（合作过珍爱网、世纪佳缘、56视频、京东等客户）\n\n2014.03-2015.03                    广州一百信息科技有限公司                    软件工程师\n●  负责公司业务系统的设计及改进，参与公司网上商城系统产品功能设计及实施工作。\n●  负责客户调研、客户需求分析、方案写作等工作，参与公司多个大型电子商务的策划工作，担任大商集团网上商城一期建设项目经理。",
+              "lineHeight": 1.75,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XXGiX",
+          "x": 0,
+          "y": 708,
+          "name": "校园经历区",
+          "width": 820,
+          "height": 160,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Bvypy",
+              "x": 0,
+              "y": 0,
+              "name": "campusBand",
+              "fill": "#F2F2F2",
+              "width": 820,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "id": "Vq4Fk",
+              "x": 16,
+              "y": 7,
+              "name": "campusLabel",
+              "fill": "#234A6F",
+              "width": 104,
+              "height": 26
+            },
+            {
+              "type": "text",
+              "id": "sMboy",
+              "x": 34,
+              "y": 12,
+              "name": "campusLabelText",
+              "fill": "#FFFFFF",
+              "content": "校园经历",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "lFsuh",
+              "x": 36,
+              "y": 56,
+              "name": "campusBody",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 748,
+              "content": "2009.03-2011.06                    广州捷信科技有限公司                    校园大使主席\n●  负责公司线上端资源的销售工作（以开拓客户为主），公司主要资源以智汇推、百度、小米、360、沃门户等；\n●  实时了解行业变化，跟踪客户的详细数据，为客户制定更完善的投放计划（合作过珍爱网、世纪佳缘、56视频、京东等客户）",
+              "lineHeight": 1.75,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "0Kuz8",
+          "x": 0,
+          "y": 882,
+          "name": "技能证书区",
+          "width": 820,
+          "height": 140,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "LgwKB",
+              "x": 0,
+              "y": 0,
+              "name": "skillBand",
+              "fill": "#F2F2F2",
+              "width": 820,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "id": "sfxPz",
+              "x": 16,
+              "y": 7,
+              "name": "skillLabel",
+              "fill": "#234A6F",
+              "width": 104,
+              "height": 26
+            },
+            {
+              "type": "text",
+              "id": "zVUaW",
+              "x": 34,
+              "y": 12,
+              "name": "skillLabelText",
+              "fill": "#FFFFFF",
+              "content": "技能证书",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "3zghg",
+              "x": 36,
+              "y": 56,
+              "name": "skillBody",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 748,
+              "content": "普通话二级甲等；\n大学英语四六级（CET-4/6），良好的听说读写能力，快速浏览英语专业文件及书籍；\n通过全国计算机一级考试，熟练运用 OFFICE 相关软件。",
+              "lineHeight": 1.78,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5gKrk",
+          "x": 0,
+          "y": 1036,
+          "name": "自我评价区",
+          "width": 820,
+          "height": 140,
+          "fill": "#FFFFFF",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "xQ6PT",
+              "x": 0,
+              "y": 0,
+              "name": "evalBand",
+              "fill": "#F2F2F2",
+              "width": 820,
+              "height": 40
+            },
+            {
+              "type": "rectangle",
+              "id": "gSR1K",
+              "x": 16,
+              "y": 7,
+              "name": "evalLabel",
+              "fill": "#234A6F",
+              "width": 104,
+              "height": 26
+            },
+            {
+              "type": "text",
+              "id": "SBQuf",
+              "x": 34,
+              "y": 12,
+              "name": "evalLabelText",
+              "fill": "#FFFFFF",
+              "content": "自我评价",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "svl2R",
+              "x": 36,
+              "y": 56,
+              "name": "evalBody",
+              "fill": "#5C5C5C",
+              "textGrowth": "fixed-width",
+              "width": 748,
+              "content": "深度互联网从业人员，对互联网保持高度的敏感性和关注度，熟悉产品开发流程，有很强的产品规划、需求分析、交互设计能力，能独立承担 APP 和 WEB 项目策划，善于协调资源并贴近用户。",
+              "lineHeight": 1.85,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
