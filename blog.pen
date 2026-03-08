@@ -1,0 +1,3528 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "5eLQX",
+      "x": 80,
+      "y": 80,
+      "name": "MyBlog / Apple Style Blog List",
+      "width": 1440,
+      "height": 2060,
+      "fill": "#F5F5F7",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        18,
+        32,
+        60,
+        32
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "6NcFQ",
+          "name": "Top Nav / Editorial",
+          "width": 1376,
+          "height": 54,
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E0E0E5"
+          },
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hQXWV",
+              "name": "Nav Left",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1bUwl",
+                  "name": "Brand",
+                  "fill": "#111111",
+                  "content": "MYBLOG",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "frame",
+                  "id": "aRpJd",
+                  "name": "Nav Links",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pf2dn",
+                      "name": "Link Active",
+                      "fill": "#111111",
+                      "content": "Blog",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7W4VH",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Essays",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kr8sF",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Notes",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iAHUd",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Archive",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vaVUw",
+              "name": "Nav Right",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "xSVlP",
+                  "name": "searchPlain",
+                  "width": 15,
+                  "height": 15,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6E6E73"
+                },
+                {
+                  "type": "frame",
+                  "id": "YE7zr",
+                  "name": "Subscribe Link",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SoL9I",
+                      "name": "Subscribe Text",
+                      "fill": "#111111",
+                      "content": "Subscribe",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "nmDYk",
+                      "name": "subArrow",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "arrow-up-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#6E6E73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kJuMS",
+          "name": "Hero",
+          "width": 1376,
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            34,
+            0,
+            6,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cFYZb",
+              "name": "Hero Tag",
+              "fill": "#0071E3",
+              "content": "A thoughtful archive of design, code, and slow ideas",
+              "lineHeight": 1.3,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "DDwLM",
+              "name": "Hero Title",
+              "fill": "#1D1D1F",
+              "textGrowth": "fixed-width",
+              "width": 1000,
+              "content": "A blog list page with the calm, polished feel of iPhone design.",
+              "lineHeight": 0.98,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 72,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "JxQ53",
+              "name": "Hero Description",
+              "fill": "#6E6E73",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "把文章做得像产品页一样清晰：大留白、柔和层级、轻质感卡片，以及让人愿意慢慢往下看的节奏。",
+              "lineHeight": 1.45,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 21
+            },
+            {
+              "type": "frame",
+              "id": "JTPhT",
+              "name": "Hero Actions",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZSGLh",
+                  "name": "Primary CTA",
+                  "fill": "#1D1D1F",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9KRDB",
+                      "name": "Primary CTA Text",
+                      "fill": "#FFFFFF",
+                      "content": "Read latest",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9GgPp",
+                  "name": "Secondary CTA",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D2D2D7"
+                  },
+                  "padding": [
+                    10,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OVM3w",
+                      "name": "Secondary CTA Text",
+                      "fill": "#1D1D1F",
+                      "content": "Browse archive",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "O7iL0",
+          "name": "Feature Row",
+          "width": 1376,
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "WC2FF",
+              "name": "Featured Card",
+              "width": 908,
+              "height": 420,
+              "fill": "#FFFFFF",
+              "cornerRadius": 32,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E5E5EA"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000008",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 20
+              },
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "H6Y5x",
+                  "name": "Featured Card Inner",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "padding": 30,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MGMNz",
+                      "name": "Featured Text",
+                      "width": 430,
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0aPKH",
+                          "name": "Featured Tag",
+                          "fill": "#0071E3",
+                          "content": "FEATURED STORY",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cXRQJ",
+                          "name": "Featured Title",
+                          "fill": "#1D1D1F",
+                          "textGrowth": "fixed-width",
+                          "width": 430,
+                          "content": "Build a blog list page with the simple confidence of iPhone design.",
+                          "lineHeight": 1.05,
+                          "fontFamily": "Inter",
+                          "fontSize": 40,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gwiA4",
+                          "name": "Featured Description",
+                          "fill": "#6E6E73",
+                          "textGrowth": "fixed-width",
+                          "width": 400,
+                          "content": "用更少的装饰，做出更高级的阅读体验：大标题、浅层次、柔和卡片和稳定的留白节奏。",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 17
+                        },
+                        {
+                          "type": "text",
+                          "id": "8FXsH",
+                          "name": "Featured Meta",
+                          "fill": "#6E6E73",
+                          "content": "9 min read · Updated today",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "0r3KD",
+                      "name": "Featured Visual",
+                      "width": 360,
+                      "height": 320,
+                      "fill": "#EEF5FF",
+                      "cornerRadius": 28,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rbJQE",
+                          "x": 170,
+                          "y": 34,
+                          "name": "Orb Blue",
+                          "width": 150,
+                          "height": 150,
+                          "fill": "#BFD6FF",
+                          "cornerRadius": 999
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bOIGs",
+                          "x": 62,
+                          "y": 124,
+                          "name": "Orb Violet",
+                          "width": 170,
+                          "height": 170,
+                          "fill": "#D9D0FF",
+                          "cornerRadius": 999
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YJFrG",
+                          "x": 208,
+                          "y": 168,
+                          "name": "Orb Mint",
+                          "width": 96,
+                          "height": 96,
+                          "fill": "#D9F3EC",
+                          "cornerRadius": 999
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XcS7h",
+              "name": "Feature Side Column",
+              "width": 448,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "J3LPz",
+                  "name": "Small Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1B56K",
+                      "name": "Small Card Tag",
+                      "fill": "#0071E3",
+                      "content": "THIS WEEK",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "96w0s",
+                      "name": "Small Card Title",
+                      "fill": "#1D1D1F",
+                      "content": "04 fresh essays",
+                      "lineHeight": 1.05,
+                      "fontFamily": "Inter",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1HgIV",
+                      "name": "Small Card Text",
+                      "fill": "#6E6E73",
+                      "content": "设计系统、AI 协作、内容结构和慢写作。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "2w0JE",
+                  "name": "Newsletter Card",
+                  "width": "fill_container",
+                  "fill": "#F0F6FF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D7E6FF"
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A7Xnq",
+                      "name": "Newsletter Tag",
+                      "fill": "#0071E3",
+                      "content": "NEWSLETTER",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CSUB0",
+                      "name": "Newsletter Title",
+                      "fill": "#1D1D1F",
+                      "content": "Subscribe for weekly notes.",
+                      "lineHeight": 1.08,
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MkJTy",
+                      "name": "Newsletter Text",
+                      "fill": "#6E6E73",
+                      "content": "每周一封，把最近值得读的文章、想法和草稿发到邮箱。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oY14b",
+          "name": "Section Header",
+          "width": 1376,
+          "padding": [
+            6,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "9udhj",
+              "name": "Section Title",
+              "fill": "#1D1D1F",
+              "content": "Latest Stories",
+              "lineHeight": 1.05,
+              "fontFamily": "Inter",
+              "fontSize": 34,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "f6MPc",
+              "name": "Filters",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CQXHL",
+                  "name": "Filter Active",
+                  "fill": "#1D1D1F",
+                  "cornerRadius": 999,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DqJZc",
+                      "name": "Filter Text",
+                      "fill": "#FFFFFF",
+                      "content": "All",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cS3kX",
+                  "name": "Filter",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D2D2D7"
+                  },
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DYBvZ",
+                      "name": "Filter Text",
+                      "fill": "#1D1D1F",
+                      "content": "Design",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SZHIU",
+                  "name": "Filter",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D2D2D7"
+                  },
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BAlmX",
+                      "name": "Filter Text",
+                      "fill": "#1D1D1F",
+                      "content": "Notes",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BquOZ",
+          "name": "Card Grid",
+          "width": 1376,
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "9ZZ7X",
+              "name": "Card Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DasKZ",
+                  "name": "Article Card A",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KNjoZ",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#EEF5FF",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MMHar",
+                          "name": "Article Art Word",
+                          "fill": "#6A8EDC",
+                          "content": "DESIGN",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "eq1JD",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "DESIGN · 2026.03.09",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YRPw2",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "把博客做成像产品页一样清爽：结构、节奏与阅读体验",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aD4Mj",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "从标题密度、卡片层级到留白系统，建立更接近 Apple 产品页的内容展示方式。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "dluId",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "6 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Spu2O",
+                  "name": "cardB",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OXOqc",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#F2EEFF",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iYU3m",
+                          "name": "Article Art Word",
+                          "fill": "#8A75D6",
+                          "content": "ESSAY",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "6olQM",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "ESSAY · 2026.03.07",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gxM3E",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "慢写作不是变慢，而是给好内容更稳定的生长空间",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3czNo",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "从记录、整理到发布，把博客当作长期项目去维护，阅读体验会自然变好。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "Cha2a",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "5 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bJFg6",
+                  "name": "cardC",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FkWf9",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#EEF7F1",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O8piJ",
+                          "name": "Article Art Word",
+                          "fill": "#5E9C74",
+                          "content": "ARCHIVE",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "YDKVV",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "ARCHIVE · 2026.03.05",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UhwJY",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "如何设计一个长期有效的归档系统，让旧文章持续被看见",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "urZKp",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "标签、专题页、更新时间和相关推荐，是博客可持续阅读的基础结构。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y1guX",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "7 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dkQwa",
+              "name": "Card Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hwhre",
+                  "name": "cardD",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VGC9s",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#FFF3E8",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I8xUV",
+                          "name": "Article Art Word",
+                          "fill": "#C77C2E",
+                          "content": "NOTES",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tPyPJ",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "NOTES · 2026.03.03",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "n8bOH",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "用更少的视觉元素，做出更舒服的页面层级",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pp1N8",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "iPhone 风格最迷人的地方之一，就是让层级来自间距、字重和材质，而不是堆装饰。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "nXIMk",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "4 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oOwSN",
+                  "name": "cardE",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EmZqc",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#F2F4F8",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0O5lZ",
+                          "name": "Article Art Word",
+                          "fill": "#6B7A90",
+                          "content": "FLOW",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "GgY8X",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "WORKFLOW · 2026.03.01",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "68xV6",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "让 AI 成为第二写作者：从草稿到结构化整理的流程",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HYUPS",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "把 AI 放进写作流程，不是为了偷懒，而是为了更好地保存思考轨迹。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "HYVJf",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "8 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sRz5A",
+                  "name": "cardF",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pzrgL",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#F9F0F5",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VQgtf",
+                          "name": "Article Art Word",
+                          "fill": "#B06A8E",
+                          "content": "IDEA",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "FI53z",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "IDEAS · 2026.02.28",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xnUsj",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "为什么好的博客首页，不该只是文章缩略图的堆叠",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FtDpy",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "一个更有节奏感的首页，能让读者快速理解你的主题、气质和更新状态。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "bCk1R",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "5 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7TZwF",
+          "name": "Pagination",
+          "width": 1376,
+          "padding": [
+            8,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gOFTP",
+              "name": "Pagination Left",
+              "fill": "#6E6E73",
+              "content": "Page 1 of 6",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "zozBF",
+              "name": "Pagination Right",
+              "fill": "#0071E3",
+              "content": "More stories →",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sffaN",
+      "x": 1640,
+      "y": 80,
+      "name": "MyBlog / More Stories",
+      "width": 1440,
+      "height": 1597,
+      "fill": "#F5F5F7",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        18,
+        32,
+        56,
+        32
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "2Eynp",
+          "name": "nav2",
+          "width": 1376,
+          "height": 54,
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E0E0E5"
+          },
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zrvWp",
+              "name": "Nav Left",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bF7bV",
+                  "name": "Brand",
+                  "fill": "#111111",
+                  "content": "MYBLOG",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "frame",
+                  "id": "LBPDs",
+                  "name": "Nav Links",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8BvWg",
+                      "name": "Link Active",
+                      "fill": "#111111",
+                      "content": "Blog",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tBx30",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Essays",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AbDni",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Notes",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OMy6p",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Archive",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QWdgX",
+              "name": "Nav Right",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "zWGV1",
+                  "name": "searchPlain",
+                  "width": 15,
+                  "height": 15,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6E6E73"
+                },
+                {
+                  "type": "frame",
+                  "id": "PXEKe",
+                  "name": "Subscribe Link",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ojp2t",
+                      "name": "Subscribe Text",
+                      "fill": "#111111",
+                      "content": "Subscribe",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "LYDTN",
+                      "name": "subArrow",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "arrow-up-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#6E6E73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OlExU",
+          "name": "Page Hero",
+          "width": 1376,
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            24,
+            0,
+            4,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "35tPQ",
+              "name": "Page Tag",
+              "fill": "#0071E3",
+              "content": "ARCHIVE",
+              "lineHeight": 1.3,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "HwJex",
+              "name": "Page Title",
+              "fill": "#1D1D1F",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "More stories, notes, and essays worth revisiting.",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "ADjqT",
+              "name": "Page Desc",
+              "fill": "#6E6E73",
+              "textGrowth": "fixed-width",
+              "width": 760,
+              "content": "这一页更像完整归档：更广的主题、更密的更新，以及适合继续深挖的长期内容。",
+              "lineHeight": 1.45,
+              "fontFamily": "Inter",
+              "fontSize": 19
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rlVob",
+          "name": "Toolbar",
+          "width": 1376,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "yeqLO",
+              "name": "Search Wrap",
+              "width": 360,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E5E5EA"
+              },
+              "gap": 10,
+              "padding": [
+                0,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "gYCFb",
+                  "name": "searchIcon",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#8E8E93"
+                },
+                {
+                  "type": "text",
+                  "id": "duRTy",
+                  "name": "Search Placeholder",
+                  "fill": "#8E8E93",
+                  "content": "Search stories",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9hqR6",
+              "name": "Chips",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nQf7j",
+                  "name": "Chip Active",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D2D2D7"
+                  },
+                  "padding": [
+                    9,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Z9mYv",
+                      "name": "Chip Text",
+                      "fill": "#1D1D1F",
+                      "content": "All topics",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JlwMw",
+                  "name": "Chip",
+                  "fill": "#1D1D1F",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#1D1D1F"
+                  },
+                  "padding": [
+                    9,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hyi0g",
+                      "name": "Chip Text",
+                      "fill": "#FFFFFF",
+                      "content": "Design systems",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DScjF",
+                  "name": "Chip",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D2D2D7"
+                  },
+                  "padding": [
+                    9,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JRyJZ",
+                      "name": "Chip Text",
+                      "fill": "#1D1D1F",
+                      "content": "Writing",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KrUBz",
+                  "name": "Chip",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D2D2D7"
+                  },
+                  "padding": [
+                    9,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uxqrd",
+                      "name": "Chip Text",
+                      "fill": "#1D1D1F",
+                      "content": "Workflow",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "S38K8",
+          "name": "Filter Summary",
+          "fill": "#FFFFFF",
+          "cornerRadius": 999,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E5E5EA"
+          },
+          "gap": 8,
+          "padding": [
+            10,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "4haof",
+              "name": "Dot",
+              "width": 8,
+              "height": 8,
+              "fill": "#0071E3",
+              "cornerRadius": 999
+            },
+            {
+              "type": "text",
+              "id": "ggDBv",
+              "name": "Summary Text",
+              "fill": "#1D1D1F",
+              "content": "Filtering by Design systems · 18 stories",
+              "lineHeight": 1.3,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Oo9YD",
+          "name": "Stats Row",
+          "width": 1376,
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "qv1AE",
+              "name": "Stat Card",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E5E5EA"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Php2I",
+                  "name": "Stat Label",
+                  "fill": "#6E6E73",
+                  "content": "Stories in category",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "oEpSC",
+                  "name": "Stat Value",
+                  "fill": "#1D1D1F",
+                  "content": "18",
+                  "lineHeight": 1,
+                  "fontFamily": "Inter",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gTPko",
+              "name": "Stat Card",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E5E5EA"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tAMUG",
+                  "name": "Stat Label",
+                  "fill": "#6E6E73",
+                  "content": "Collections",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "9gB5Y",
+                  "name": "Stat Value",
+                  "fill": "#1D1D1F",
+                  "content": "5",
+                  "lineHeight": 1,
+                  "fontFamily": "Inter",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EO9kl",
+              "name": "Stat Card",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#E5E5EA"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sBHkR",
+                  "name": "Stat Label",
+                  "fill": "#6E6E73",
+                  "content": "Last updated",
+                  "lineHeight": 1.3,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Onk8y",
+                  "name": "Stat Value",
+                  "fill": "#1D1D1F",
+                  "content": "Mar 9",
+                  "lineHeight": 1,
+                  "fontFamily": "Inter",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lITdR",
+          "name": "More Stories Grid",
+          "width": 1376,
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "E41nP",
+              "name": "Grid Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kyAmt",
+                  "name": "card1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "u1MkC",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#EEF5FF",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pwiAv",
+                          "name": "Article Art Word",
+                          "fill": "#6A8EDC",
+                          "content": "DESIGN",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "GaFAw",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "DESIGN · 2026.03.09",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kluJd",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "把博客做成像产品页一样清爽：结构、节奏与阅读体验",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1aDAq",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "从标题密度、卡片层级到留白系统，建立更接近 Apple 产品页的内容展示方式。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "ENlaU",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "6 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LLU3Q",
+                  "name": "card2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QYGiY",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#F2EEFF",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "541M0",
+                          "name": "Article Art Word",
+                          "fill": "#7B6CD9",
+                          "content": "TOKENS",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "afid8",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "DESIGN SYSTEMS · 2026.03.07",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0n5ni",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "设计 Token 不只是颜色表：如何组织语义层与组件层",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i6ElW",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "从基础色值到语义 token，再到组件变量，让系统具备真正可维护的扩展能力。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pa4ja",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "5 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DaFOi",
+                  "name": "card3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dRCog",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#EEF7F1",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "H6mnq",
+                          "name": "Article Art Word",
+                          "fill": "#5E9C74",
+                          "content": "LIBRARY",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cjmKM",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "DESIGN SYSTEMS · 2026.03.05",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IDGKe",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "组件库不是收纳盒，而是团队共享设计判断的方式",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zF4U2",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "一套好的组件库，不只提供复用部件，也应该沉淀命名、边界和使用语境。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "DWKCv",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "7 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4xiYq",
+              "name": "Grid Row",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0zjlQ",
+                  "name": "card4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ysfTN",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#EEF5FF",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9ZNby",
+                          "name": "Article Art Word",
+                          "fill": "#5E88D6",
+                          "content": "SPACING",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cSvaF",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "DESIGN SYSTEMS · 2026.03.03",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CnAw4",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "为什么间距系统决定了界面的高级感与一致性",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nI5vG",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "真正让界面稳定好看的，往往不是颜色，而是间距、对齐和密度控制。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "wr5nU",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "4 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NDNn5",
+                  "name": "card5",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uvvFE",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#EDF7F3",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "13SAu",
+                          "name": "Article Art Word",
+                          "fill": "#4E9B74",
+                          "content": "PATTERN",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "wFjlo",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "DESIGN SYSTEMS · 2026.03.01",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "upjIg",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "从 Pattern 到页面模板：让组件系统真正支持复杂页面",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3RtBE",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "当卡片、列表和分区模板足够稳定后，内容页面的构建效率会显著提升。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "feAgQ",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "8 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4UUDe",
+                  "name": "card6",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "2gkjJ",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#F3F0FF",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "QIOsO",
+                          "name": "Article Art Word",
+                          "fill": "#876FD8",
+                          "content": "SCALE",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "IbrLr",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "DESIGN SYSTEMS · 2026.02.28",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PUZB4",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "标题、正文、标签如何建立统一字号尺度，避免页面失序",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6Jozu",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "字号系统不是简单的数字梯度，而是页面信息层级和阅读节奏的骨架。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "EN1oZ",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "5 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Fh2H1",
+          "name": "Pagination",
+          "width": 1376,
+          "padding": [
+            8,
+            0,
+            0,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "u4LHc",
+              "name": "Pagination Left",
+              "fill": "#6E6E73",
+              "content": "Showing 6 of 78 stories",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "91nKW",
+              "name": "Pagination Right",
+              "fill": "#0071E3",
+              "content": "Load more →",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zqdNB",
+      "x": 3200,
+      "y": 80,
+      "name": "MyBlog / Article Detail",
+      "width": 1440,
+      "height": 1917,
+      "fill": "#F5F5F7",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        18,
+        32,
+        60,
+        32
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "OzmKl",
+          "name": "nav3",
+          "width": 1376,
+          "height": 54,
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E0E0E5"
+          },
+          "padding": [
+            0,
+            0,
+            12,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "SyedN",
+              "name": "Nav Left",
+              "gap": 40,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KYylq",
+                  "name": "Brand",
+                  "fill": "#111111",
+                  "content": "MYBLOG",
+                  "lineHeight": 1.2,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 1.2
+                },
+                {
+                  "type": "frame",
+                  "id": "EfZP1",
+                  "name": "Nav Links",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EBJ7c",
+                      "name": "Link Active",
+                      "fill": "#111111",
+                      "content": "Blog",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "niF60",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Essays",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3KOZ8",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Notes",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s1BHB",
+                      "name": "Link",
+                      "fill": "#8A8A8F",
+                      "content": "Archive",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zlCx2",
+              "name": "Nav Right",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "O9hqz",
+                  "name": "searchPlain",
+                  "width": 15,
+                  "height": 15,
+                  "iconFontName": "search",
+                  "iconFontFamily": "lucide",
+                  "fill": "#6E6E73"
+                },
+                {
+                  "type": "frame",
+                  "id": "nxDHp",
+                  "name": "Subscribe Link",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DZQgU",
+                      "name": "Subscribe Text",
+                      "fill": "#111111",
+                      "content": "Subscribe",
+                      "lineHeight": 1.2,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "jthcw",
+                      "name": "subArrow",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "arrow-up-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#6E6E73"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Hw6Pr",
+          "name": "Cover Card",
+          "width": 1376,
+          "height": 380,
+          "fill": "#FFFFFF",
+          "cornerRadius": 36,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#E5E5EA"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#00000008",
+            "offset": {
+              "x": 0,
+              "y": 8
+            },
+            "blur": 20
+          },
+          "children": [
+            {
+              "type": "frame",
+              "id": "8djht",
+              "name": "Cover Inner",
+              "width": "fill_container",
+              "height": "fill_container",
+              "padding": 34,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k1khX",
+                  "name": "Cover Text",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p4AsV",
+                      "name": "Cover Tag",
+                      "fill": "#0071E3",
+                      "content": "FEATURE STORY",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Uyo7S",
+                      "name": "Cover Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 500,
+                      "content": "A calmer blog starts with clearer layout decisions.",
+                      "lineHeight": 1.04,
+                      "fontFamily": "Inter",
+                      "fontSize": 42,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ACeuO",
+                      "name": "Cover Desc",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 470,
+                      "content": "当页面不再把注意力浪费在装饰上，读者更容易感知内容本身。真正的高级感，往往来自克制。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lEwiT",
+                  "name": "Cover Visual",
+                  "width": 520,
+                  "height": 265,
+                  "fill": "#EEF5FF",
+                  "cornerRadius": 30,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "1Gdrd",
+                      "x": 260,
+                      "y": 17.5,
+                      "name": "Orb Large",
+                      "width": 180,
+                      "height": 178,
+                      "fill": "#C8DAFF",
+                      "cornerRadius": 999
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u9tOI",
+                      "x": 113,
+                      "y": 60.5,
+                      "name": "Orb Medium",
+                      "width": 190,
+                      "height": 190,
+                      "fill": "#DAD0FF",
+                      "cornerRadius": 999
+                    },
+                    {
+                      "type": "frame",
+                      "id": "3Lr69",
+                      "x": 273,
+                      "y": 155.5,
+                      "name": "Orb Small",
+                      "width": 110,
+                      "height": 110,
+                      "fill": "#D9F3EC",
+                      "cornerRadius": 999
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "epRUB",
+          "name": "Article Body",
+          "width": 1376,
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "4G7Ee",
+              "name": "Content Column",
+              "width": 900,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QvflG",
+                  "name": "Intro Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 30,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2c9qD",
+                      "name": "Intro Lead",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "很多博客详情页的问题，不在于内容不够好，而在于信息被摆放得不够清楚。标题、导语、封面和正文之间如果没有稳定层级，读者会更快感到疲惫。",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EhWwf",
+                      "name": "Intro Body",
+                      "fill": "#4D4D52",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "所以在设计详情页时，我会优先处理三件事：让首屏就能建立主题印象；让正文阅读节奏稳定；让辅助信息存在但不喧宾夺主。这样的页面既像内容页面，也保留一点产品页的清晰感。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pVQeE",
+                  "name": "Section 1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    8,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1lujV",
+                      "name": "Section Title",
+                      "fill": "#1D1D1F",
+                      "content": "1. 先决定读者第一眼看到什么",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Inter",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QRtev",
+                      "name": "Section Body",
+                      "fill": "#4D4D52",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "如果首屏已经有大标题、导语和封面视觉，就不要再堆很多按钮、标签和花哨的说明。首屏的任务不是解释一切，而是建立一种‘可以安心读下去’的氛围。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ajdp2",
+                      "name": "Section Body",
+                      "fill": "#4D4D52",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "在这版设计里，我保留了足够大的标题和柔和封面块，让首屏像一个轻量的内容海报。它不需要复杂，但必须足够明确。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Em5wq",
+                  "name": "Code Block Card",
+                  "width": "fill_container",
+                  "fill": "#F7F7FA",
+                  "cornerRadius": 26,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RUugY",
+                      "name": "Code Label",
+                      "fill": "#0071E3",
+                      "content": "CODE BLOCK",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZKCW9",
+                      "name": "Code Text",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "## First impression\n\n- Keep the hero simple\n- Let spacing build hierarchy\n- Move secondary info into the sidebar\n\n> hierarchy before decoration",
+                      "lineHeight": 1.7,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QdjHZ",
+                  "name": "Quote Card",
+                  "width": "fill_container",
+                  "fill": "#F0F6FF",
+                  "cornerRadius": 30,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D7E6FF"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DFoDT",
+                      "name": "Quote Text",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 800,
+                      "content": "“好的内容页不是把更多东西塞进去，而是帮读者更顺畅地走进去。”",
+                      "lineHeight": 1.25,
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "q2ZEn",
+                      "name": "Quote Meta",
+                      "fill": "#0071E3",
+                      "content": "Blockquote · rendered from markdown",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H0Sph",
+                  "name": "Section 2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    8,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2FkbK",
+                      "name": "Section Title",
+                      "fill": "#1D1D1F",
+                      "content": "2. 让正文读起来像连续的体验，而不是信息清单",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Inter",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "agFLZ",
+                      "name": "Section Body",
+                      "fill": "#4D4D52",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "正文部分最怕碎。段落、标题、引用、侧栏信息都应该服务于阅读主线，而不是不断把注意力拉走。文章详情页的每一个模块，都应该有明确的存在理由。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "text",
+                      "id": "GjVx4",
+                      "name": "Section Body",
+                      "fill": "#4D4D52",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "因此我通常会把正文控制在单一主列里，把作者信息、目录和订阅入口放到侧栏。这样读者既能快速定位，也不会被迫频繁切换视线轨迹。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "text",
+                      "id": "RvbMe",
+                      "name": "Section Body",
+                      "fill": "#4D4D52",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "如果页面还有相关推荐，它更适合放在正文底部，作为完成阅读后的下一步，而不是提前挤进阅读路径里。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cCDzA",
+                  "name": "List Block Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 26,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1Q9Mi",
+                      "name": "List Title",
+                      "fill": "#1D1D1F",
+                      "content": "Common markdown-it blocks I would design for",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qlQhH",
+                      "name": "List Text",
+                      "fill": "#4D4D52",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "• H1 / H2 / H3 headings with stable spacing\n• Paragraphs with readable width and 1.7 line height\n• Blockquotes that feel distinct but not heavy\n• Code fences with monospaced typography\n• Ordered and unordered lists with generous indentation",
+                      "lineHeight": 1.75,
+                      "fontFamily": "Inter",
+                      "fontSize": 17
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7sCAD",
+              "name": "Side Column",
+              "width": 452,
+              "height": 1374,
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2u47F",
+                  "name": "Author Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 26,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LOEcj",
+                      "name": "Author Tag",
+                      "fill": "#0071E3",
+                      "content": "AUTHOR",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XMQjk",
+                      "name": "Author Name",
+                      "fill": "#1D1D1F",
+                      "content": "MYBLOG Studio",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bIkGs",
+                      "name": "Author Text",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 390,
+                      "content": "记录设计系统、写作方法与数字产品体验，偏爱克制、清晰和长期主义。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lq3kA",
+                  "name": "TOC Card",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 26,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7Bdgo",
+                      "name": "TOC Tag",
+                      "fill": "#0071E3",
+                      "content": "ON THIS PAGE",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vdUMX",
+                      "name": "TOC Item",
+                      "fill": "#1D1D1F",
+                      "content": "Introduction",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5foqZ",
+                      "name": "TOC Item",
+                      "fill": "#6E6E73",
+                      "content": "1. First impression",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dMVqP",
+                      "name": "TOC Item",
+                      "fill": "#6E6E73",
+                      "content": "2. Reading rhythm",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lOF22",
+                      "name": "TOC Item",
+                      "fill": "#6E6E73",
+                      "content": "Related stories",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QHCHl",
+                      "name": "TOC Item",
+                      "fill": "#6E6E73",
+                      "content": "Code & blockquote",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ivRqB",
+                      "name": "TOC Item",
+                      "fill": "#6E6E73",
+                      "content": "Common blocks",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5WH1a",
+                  "name": "CTA Card",
+                  "width": "fill_container",
+                  "fill": "#F0F6FF",
+                  "cornerRadius": 26,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#D7E6FF"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 22,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7kpft",
+                      "name": "CTA Tag",
+                      "fill": "#0071E3",
+                      "content": "KEEP READING",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pdn77",
+                      "name": "CTA Title",
+                      "fill": "#1D1D1F",
+                      "content": "Get new essays every week.",
+                      "lineHeight": 1.08,
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0goSj",
+                      "name": "CTA Text",
+                      "fill": "#6E6E73",
+                      "content": "订阅更新，把新的文章、草稿和延伸阅读直接送到邮箱。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j9vzo",
+                      "name": "CTA Button",
+                      "fill": "#1D1D1F",
+                      "cornerRadius": 999,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qTMx4",
+                          "name": "CTA Button Text",
+                          "fill": "#FFFFFF",
+                          "content": "Subscribe",
+                          "lineHeight": 1.2,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P7U6f",
+                  "name": "related3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#E5E5EA"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000008",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Eijs3",
+                      "name": "Article Art",
+                      "width": "fill_container",
+                      "height": 220,
+                      "fill": "#EEF7F1",
+                      "cornerRadius": 22,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8EHMv",
+                          "name": "Article Art Word",
+                          "fill": "#5E9C74",
+                          "content": "ARCHIVE",
+                          "lineHeight": 1,
+                          "fontFamily": "Inter",
+                          "fontSize": 28,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "lcvgj",
+                      "name": "Article Meta",
+                      "fill": "#0071E3",
+                      "content": "ARCHIVE · 2026.03.05",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sKXkt",
+                      "name": "Article Title",
+                      "fill": "#1D1D1F",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "如何设计一个长期有效的归档系统，让旧文章持续被看见",
+                      "lineHeight": 1.15,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eT9Rg",
+                      "name": "Article Description",
+                      "fill": "#6E6E73",
+                      "textGrowth": "fixed-width",
+                      "width": 410,
+                      "content": "标签、专题页、更新时间和相关推荐，是博客可持续阅读的基础结构。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "s98pQ",
+                      "name": "Article Footer",
+                      "fill": "#1D1D1F",
+                      "content": "7 min read →",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "4": "pencil:shadcn.lib.pen",
+    "6": "pencil:lunaris.lib.pen",
+    "8": "pencil:nitro.lib.pen",
+    "L": "pencil:halo.lib.pen"
+  }
+}
