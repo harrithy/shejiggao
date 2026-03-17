@@ -2871,7 +2871,7 @@
       "clip": true,
       "width": 390,
       "height": 916,
-      "fill": "#ffffff",
+      "fill": "#FFF8F2",
       "cornerRadius": 36,
       "stroke": {
         "align": "inside",
@@ -2909,7 +2909,7 @@
               "type": "text",
               "id": "aCyi4",
               "name": "Time",
-              "fill": "#0f172a",
+              "fill": "#2F221C",
               "content": "09:41",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -2920,7 +2920,7 @@
               "type": "text",
               "id": "Z0ClO",
               "name": "State",
-              "fill": "#475569",
+              "fill": "#8C6E5D",
               "content": "5G 100%",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -2963,25 +2963,25 @@
                       "type": "text",
                       "id": "vvdPY",
                       "name": "Title",
-                      "fill": "#0f172a",
+                      "fill": "#2F221C",
                       "content": "今天吃了吗？",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 28,
-                      "fontWeight": "700"
+                      "fontSize": 30,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "GrYyf",
                       "name": "Subtitle",
                       "context": "123",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "textGrowth": "fixed-width",
                       "width": 250,
                       "content": "拍照记录每一顿，养成按时吃饭的好习惯。",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 13,
+                      "fontSize": 14,
                       "fontWeight": "500"
                     }
                   ]
@@ -2990,7 +2990,7 @@
                   "type": "frame",
                   "id": "ZJcz0",
                   "name": "Streak Badge",
-                  "fill": "#ffffff",
+                  "fill": "#FFE2D1",
                   "cornerRadius": 20,
                   "stroke": {
                     "align": "inside",
@@ -3000,12 +3000,12 @@
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
-                    "color": "#0f172a08",
+                    "color": "#B66A3620",
                     "offset": {
                       "x": 0,
-                      "y": 4
+                      "y": 8
                     },
-                    "blur": 10
+                    "blur": 18
                   },
                   "layout": "vertical",
                   "gap": 4,
@@ -3019,7 +3019,7 @@
                       "type": "text",
                       "id": "YDMC8",
                       "name": "Badge Top",
-                      "fill": "#475569",
+                      "fill": "#8C6E5D",
                       "content": "连续打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -3030,12 +3030,12 @@
                       "type": "text",
                       "id": "EA52c",
                       "name": "Badge Bottom",
-                      "fill": "#334155",
+                      "fill": "#C45B2E",
                       "content": "5 天",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 18,
-                      "fontWeight": "700"
+                      "fontSize": 20,
+                      "fontWeight": "800"
                     }
                   ]
                 }
@@ -3047,22 +3047,22 @@
               "name": "Today Summary Card",
               "width": "fill_container",
               "height": 394,
-              "fill": "#1f2937",
+              "fill": "#3B281F",
               "cornerRadius": 28,
               "stroke": {
                 "align": "inside",
-                "thickness": 2,
-                "fill": "#475569"
+                "thickness": 1,
+                "fill": "#5C3B2E"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a1f",
+                "color": "#B66A3628",
                 "offset": {
                   "x": 0,
-                  "y": 8
+                  "y": 12
                 },
-                "blur": 16
+                "blur": 28
               },
               "layout": "vertical",
               "gap": 14,
@@ -3101,7 +3101,7 @@
                       "type": "text",
                       "id": "513yw",
                       "name": "Eyebrow",
-                      "fill": "#cbd5e1",
+                      "fill": "#F7C8A8",
                       "content": "上一顿 · 午餐 12:36",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -3112,24 +3112,24 @@
                       "type": "text",
                       "id": "4LCwX",
                       "name": "Heading",
-                      "fill": "#ffffff",
+                      "fill": "#FFF7F1",
                       "content": "番茄牛腩饭 + 冰美式",
                       "lineHeight": 1.3,
                       "fontFamily": "Inter",
-                      "fontSize": 20,
-                      "fontWeight": "700"
+                      "fontSize": 22,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "9HMfY",
                       "name": "Body",
-                      "fill": "#e2e8f0",
+                      "fill": "#F6E2D5",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "刚刚吃得很满足，打开首页先看看上一顿，再决定要不要继续打卡。",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 13,
+                      "fontSize": 14,
                       "fontWeight": "500"
                     }
                   ]
@@ -3146,7 +3146,7 @@
                       "id": "UuzPN",
                       "name": "Chip Meal",
                       "width": 98,
-                      "fill": "#0f172a",
+                      "fill": "#E67E4D",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -3161,7 +3161,7 @@
                           "type": "text",
                           "id": "nd36D",
                           "name": "Label",
-                          "fill": "#ffffff",
+                          "fill": "#FFF7F1",
                           "content": "餐次",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3172,7 +3172,7 @@
                           "type": "text",
                           "id": "AmcOR",
                           "name": "State",
-                          "fill": "#e2e8f0",
+                          "fill": "#F6E2D5",
                           "content": "午餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3186,7 +3186,7 @@
                       "id": "nWvAq",
                       "name": "Chip Food",
                       "width": 98,
-                      "fill": "#334155",
+                      "fill": "#5A3B2D",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -3201,7 +3201,7 @@
                           "type": "text",
                           "id": "c5Rrr",
                           "name": "Label",
-                          "fill": "#ffffff",
+                          "fill": "#FFF7F1",
                           "content": "主食",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3212,7 +3212,7 @@
                           "type": "text",
                           "id": "h4p55",
                           "name": "State",
-                          "fill": "#e2e8f0",
+                          "fill": "#F6E2D5",
                           "content": "牛腩饭",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3226,7 +3226,7 @@
                       "id": "BiiAi",
                       "name": "Chip Status",
                       "width": 98,
-                      "fill": "#334155",
+                      "fill": "#6C4A39",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -3241,7 +3241,7 @@
                           "type": "text",
                           "id": "7bzkN",
                           "name": "Label",
-                          "fill": "#ffffff",
+                          "fill": "#FFF7F1",
                           "content": "状态",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3252,7 +3252,7 @@
                           "type": "text",
                           "id": "mq6Wh",
                           "name": "State",
-                          "fill": "#e2e8f0",
+                          "fill": "#F6E2D5",
                           "content": "已记录",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3270,22 +3270,22 @@
               "id": "Dli2W",
               "name": "Today Progress Card",
               "width": "fill_container",
-              "fill": "#ffffff",
+              "fill": "#FFFCF8",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#e2e8f0"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 8,
@@ -3312,7 +3312,7 @@
                           "type": "text",
                           "id": "s3MEJ",
                           "name": "Title",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "今日三餐进度",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3323,7 +3323,7 @@
                           "type": "text",
                           "id": "iiB7a",
                           "name": "Body",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "已完成 2 / 3 餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3336,7 +3336,7 @@
                       "type": "frame",
                       "id": "3binc",
                       "name": "Mini Badge",
-                      "fill": "#f8fafc",
+                      "fill": "#FFE2D1",
                       "cornerRadius": 14,
                       "stroke": {
                         "align": "inside",
@@ -3352,7 +3352,7 @@
                           "type": "text",
                           "id": "vEPUK",
                           "name": "Label",
-                          "fill": "#475569",
+                          "fill": "#C45B2E",
                           "content": "晚餐待打卡",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3369,7 +3369,7 @@
                   "name": "Progress Bar",
                   "width": "fill_container",
                   "height": 10,
-                  "fill": "#e2e8f0",
+                  "fill": "#EAD6C6",
                   "cornerRadius": 999,
                   "children": [
                     {
@@ -3378,7 +3378,7 @@
                       "name": "Progress Fill",
                       "width": 210,
                       "height": 10,
-                      "fill": "#0f172a",
+                      "fill": "#E67E4D",
                       "cornerRadius": 999
                     }
                   ]
@@ -3395,7 +3395,7 @@
                       "id": "od4tj",
                       "name": "Breakfast",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -3410,7 +3410,7 @@
                           "type": "text",
                           "id": "29yEQ",
                           "name": "Label",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "早餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3421,7 +3421,7 @@
                           "type": "text",
                           "id": "J7e1r",
                           "name": "State",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "08:10 已完成",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3435,7 +3435,7 @@
                       "id": "jK5K2",
                       "name": "Lunch",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -3450,7 +3450,7 @@
                           "type": "text",
                           "id": "3069Y",
                           "name": "Label",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "午餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3461,7 +3461,7 @@
                           "type": "text",
                           "id": "f4j2W",
                           "name": "State",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "12:36 已完成",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3475,7 +3475,7 @@
                       "id": "jDe3J",
                       "name": "Dinner",
                       "width": "fill_container",
-                      "fill": "#ffffff",
+                      "fill": "#FFE2D1",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -3490,7 +3490,7 @@
                           "type": "text",
                           "id": "RJ9e4",
                           "name": "Label",
-                          "fill": "#0f172a",
+                          "fill": "#C45B2E",
                           "content": "晚餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3501,7 +3501,7 @@
                           "type": "text",
                           "id": "3AAJM",
                           "name": "State",
-                          "fill": "#475569",
+                          "fill": "#C45B2E",
                           "content": "下一顿待记录",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -3519,52 +3519,52 @@
               "id": "Qi5V8",
               "name": "Upload CTA",
               "width": "fill_container",
-              "fill": "#64748b",
+              "fill": "#E67E4D",
               "cornerRadius": 28,
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a10",
+                "color": "#B66A3628",
                 "offset": {
                   "x": 0,
-                  "y": 6
+                  "y": 12
                 },
-                "blur": 12
+                "blur": 28
               },
               "layout": "vertical",
-              "gap": 6,
+              "gap": 10,
               "padding": [
-                12,
-                14
+                14,
+                16
               ],
               "children": [
                 {
                   "type": "text",
                   "id": "bXwcL",
                   "name": "Title",
-                  "fill": "#FFFFFF",
+                  "fill": "#FFF7F1",
                   "content": "准备打卡这一顿？",
                   "lineHeight": 1.2,
                   "fontFamily": "Inter",
-                  "fontSize": 17,
-                  "fontWeight": "700"
+                  "fontSize": 18,
+                  "fontWeight": "800"
                 },
                 {
                   "type": "text",
                   "id": "YR4zj",
                   "name": "Body",
-                  "fill": "#f8fafc",
+                  "fill": "#FFEBDD",
                   "content": "拍照 + 一句话，马上记下来。",
                   "lineHeight": 1.5,
                   "fontFamily": "Inter",
-                  "fontSize": 11,
+                  "fontSize": 12,
                   "fontWeight": "500"
                 },
                 {
                   "type": "frame",
                   "id": "VdwNh",
                   "name": "Mini Button",
-                  "fill": "#f8fafc",
+                  "fill": "#2F221C",
                   "cornerRadius": 16,
                   "padding": [
                     6,
@@ -3575,7 +3575,7 @@
                       "type": "text",
                       "id": "Vixzu",
                       "name": "Button Label",
-                      "fill": "#475569",
+                      "fill": "#FFF7F1",
                       "content": "去打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -3584,7 +3584,12 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#D46A39"
+              }
             }
           ]
         },
@@ -3607,22 +3612,22 @@
               "name": "Bottom Nav Pill",
               "width": "fill_container",
               "height": 62,
-              "fill": "#f8fafc",
+              "fill": "#FFF6ED",
               "cornerRadius": 36,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#cbd5e1"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "gap": 4,
               "padding": 4,
@@ -3633,7 +3638,7 @@
                   "name": "Tab Home",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#E67E4D",
                   "cornerRadius": 26,
                   "effect": {
                     "type": "shadow",
@@ -3658,13 +3663,13 @@
                       "height": 18,
                       "iconFontName": "house",
                       "iconFontFamily": "lucide",
-                      "fill": "#FFFFFF"
+                      "fill": "#FFF7F1"
                     },
                     {
                       "type": "text",
                       "id": "jJdNr",
                       "name": "Label",
-                      "fill": "#FFFFFF",
+                      "fill": "#FFF7F1",
                       "content": "首页",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -3693,13 +3698,13 @@
                       "height": 18,
                       "iconFontName": "camera",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "60u8x",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -3728,13 +3733,13 @@
                       "height": 18,
                       "iconFontName": "calendar-days",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "fgsLr",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -3763,13 +3768,13 @@
                       "height": 18,
                       "iconFontName": "user-round",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "jrvfK",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -4747,7 +4752,7 @@
       "clip": true,
       "width": 390,
       "height": 844,
-      "fill": "#020617",
+      "fill": "#1E1714",
       "cornerRadius": 36,
       "stroke": {
         "align": "inside",
@@ -4785,7 +4790,7 @@
               "type": "text",
               "id": "c0xVJ",
               "name": "Time",
-              "fill": "#f8fafc",
+              "fill": "#FFF6EF",
               "content": "09:41",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -4796,7 +4801,7 @@
               "type": "text",
               "id": "Z4lRc",
               "name": "State",
-              "fill": "#94a3b8",
+              "fill": "#D8C0B0",
               "content": "5G 100%",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -4839,19 +4844,19 @@
                       "type": "text",
                       "id": "uRkd6",
                       "name": "Title",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "今天吃了吗？",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 28,
-                      "fontWeight": "700"
+                      "fontSize": 30,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "z69pD",
                       "name": "Subtitle",
                       "context": "123",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "textGrowth": "fixed-width",
                       "width": 220,
                       "content": "拍照记录每一顿，养成按时吃饭的好习惯。",
@@ -4866,7 +4871,7 @@
                   "type": "frame",
                   "id": "m8K7H",
                   "name": "Streak Badge",
-                  "fill": "#111827",
+                  "fill": "#6B402B",
                   "cornerRadius": 20,
                   "stroke": {
                     "align": "inside",
@@ -4876,7 +4881,12 @@
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
-                    "color": "#00000000"
+                    "color": "#00000040",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
                   },
                   "layout": "vertical",
                   "gap": 4,
@@ -4889,7 +4899,7 @@
                       "type": "text",
                       "id": "VIoJq",
                       "name": "Badge Top",
-                      "fill": "#94a3b8",
+                      "fill": "#F0C29D",
                       "content": "连续打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -4900,12 +4910,12 @@
                       "type": "text",
                       "id": "R18TR",
                       "name": "Badge Bottom",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "5 天",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 18,
-                      "fontWeight": "700"
+                      "fontSize": 20,
+                      "fontWeight": "800"
                     }
                   ]
                 }
@@ -4916,22 +4926,22 @@
               "id": "MhGn7",
               "name": "Today Summary Card",
               "width": "fill_container",
-              "fill": "#111827",
+              "fill": "#2B211D",
               "cornerRadius": 28,
               "stroke": {
                 "align": "inside",
-                "thickness": 2,
-                "fill": "#1f2937"
+                "thickness": 1,
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0000003d",
+                "color": "#00000055",
                 "offset": {
                   "x": 0,
-                  "y": 10
+                  "y": 14
                 },
-                "blur": 18
+                "blur": 28
               },
               "layout": "vertical",
               "gap": 16,
@@ -4970,7 +4980,7 @@
                       "type": "text",
                       "id": "Feb2V",
                       "name": "Eyebrow",
-                      "fill": "#94a3b8",
+                      "fill": "#F0B38B",
                       "content": "上一顿 · 午餐 12:36",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -4981,18 +4991,18 @@
                       "type": "text",
                       "id": "iyZ1y",
                       "name": "Heading",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "番茄牛腩饭 + 冰美式",
                       "lineHeight": 1.3,
                       "fontFamily": "Inter",
-                      "fontSize": 20,
-                      "fontWeight": "700"
+                      "fontSize": 22,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "T6GVH",
                       "name": "Body",
-                      "fill": "#cbd5e1",
+                      "fill": "#D8C0B0",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "刚刚吃得热乎又满足，打开首页先看看上一顿，再决定要不要继续打卡。",
@@ -5015,7 +5025,7 @@
                       "id": "kJtRB",
                       "name": "Chip Meal",
                       "width": 98,
-                      "fill": "#0b1220",
+                      "fill": "#6B402B",
                       "cornerRadius": 20,
                       "stroke": {
                         "align": "inside",
@@ -5030,7 +5040,7 @@
                           "type": "text",
                           "id": "x6c0p",
                           "name": "Label",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "餐次",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -5041,7 +5051,7 @@
                           "type": "text",
                           "id": "90LBz",
                           "name": "State",
-                          "fill": "#cbd5e1",
+                          "fill": "#D8C0B0",
                           "content": "午餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -5055,7 +5065,7 @@
                       "id": "tY6fD",
                       "name": "Chip Food",
                       "width": 98,
-                      "fill": "#1f2937",
+                      "fill": "#3A2B25",
                       "cornerRadius": 20,
                       "stroke": {
                         "align": "inside",
@@ -5070,7 +5080,7 @@
                           "type": "text",
                           "id": "r8J5E",
                           "name": "Label",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "主食",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -5081,7 +5091,7 @@
                           "type": "text",
                           "id": "ECsEP",
                           "name": "State",
-                          "fill": "#cbd5e1",
+                          "fill": "#D8C0B0",
                           "content": "牛腩饭",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -5095,7 +5105,7 @@
                       "id": "By9bB",
                       "name": "Chip Status",
                       "width": 98,
-                      "fill": "#1f2937",
+                      "fill": "#4A3328",
                       "cornerRadius": 20,
                       "stroke": {
                         "align": "inside",
@@ -5110,7 +5120,7 @@
                           "type": "text",
                           "id": "JnJrD",
                           "name": "Label",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "状态",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -5121,7 +5131,7 @@
                           "type": "text",
                           "id": "xserJ",
                           "name": "State",
-                          "fill": "#cbd5e1",
+                          "fill": "#D8C0B0",
                           "content": "已记录",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -5139,22 +5149,22 @@
               "id": "JIIeT",
               "name": "Upload CTA",
               "width": "fill_container",
-              "fill": "#111827",
+              "fill": "#5A3625",
               "cornerRadius": 28,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#7B503A"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#00000022",
+                "color": "#00000055",
                 "offset": {
                   "x": 0,
-                  "y": 6
+                  "y": 14
                 },
-                "blur": 12
+                "blur": 28
               },
               "layout": "vertical",
               "gap": 12,
@@ -5164,7 +5174,7 @@
                   "type": "text",
                   "id": "6EJjX",
                   "name": "Title",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF6EF",
                   "content": "拍下今天这顿",
                   "lineHeight": 1.2,
                   "fontFamily": "Inter",
@@ -5175,7 +5185,7 @@
                   "type": "text",
                   "id": "nZ0H2",
                   "name": "Body",
-                  "fill": "#cbd5e1",
+                  "fill": "#F1D2BC",
                   "content": "上传照片，补一句你吃了什么，今天就不算白过。",
                   "lineHeight": 1.5,
                   "fontFamily": "Inter",
@@ -5186,7 +5196,7 @@
                   "type": "frame",
                   "id": "VdNXk",
                   "name": "Mini Button",
-                  "fill": "#1f2937",
+                  "fill": "#F4A261",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -5202,7 +5212,7 @@
                       "type": "text",
                       "id": "ppguA",
                       "name": "Button Label",
-                      "fill": "#cbd5e1",
+                      "fill": "#2A1B14",
                       "content": "马上打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -5234,22 +5244,22 @@
               "name": "Bottom Nav Pill",
               "width": "fill_container",
               "height": 62,
-              "fill": "#0f172a",
+              "fill": "#2A201C",
               "cornerRadius": 36,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0000001f",
+                "color": "#00000040",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "gap": 4,
               "padding": 4,
@@ -5260,7 +5270,7 @@
                   "name": "Tab Home",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#1f2937",
+                  "fill": "#F4A261",
                   "cornerRadius": 26,
                   "stroke": {
                     "align": "inside",
@@ -5280,13 +5290,13 @@
                       "height": 18,
                       "iconFontName": "house",
                       "iconFontFamily": "lucide",
-                      "fill": "#f8fafc"
+                      "fill": "#2A1B14"
                     },
                     {
                       "type": "text",
                       "id": "rsuUX",
                       "name": "Label",
-                      "fill": "#f8fafc",
+                      "fill": "#2A1B14",
                       "content": "首页",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -5315,13 +5325,13 @@
                       "height": 18,
                       "iconFontName": "camera",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "2FlCW",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -5350,13 +5360,13 @@
                       "height": 18,
                       "iconFontName": "calendar-days",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "dasXm",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -5385,13 +5395,13 @@
                       "height": 18,
                       "iconFontName": "user-round",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "iROvd",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -6571,7 +6581,7 @@
       "clip": true,
       "width": 390,
       "height": 916,
-      "fill": "#ffffff",
+      "fill": "#FFF8F2",
       "cornerRadius": 36,
       "stroke": {
         "align": "inside",
@@ -6609,7 +6619,7 @@
               "type": "text",
               "id": "g1r0n",
               "name": "Time",
-              "fill": "#0f172a",
+              "fill": "#2F221C",
               "content": "09:41",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -6620,7 +6630,7 @@
               "type": "text",
               "id": "9iVD1",
               "name": "State",
-              "fill": "#475569",
+              "fill": "#8C6E5D",
               "content": "5G 100%",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -6662,22 +6672,22 @@
                       "type": "text",
                       "id": "CZVJU",
                       "name": "Title",
-                      "fill": "#0f172a",
+                      "fill": "#2F221C",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 28,
-                      "fontWeight": "700"
+                      "fontSize": 30,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "EyM8T",
                       "name": "Body",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "回看今天与本周都吃了什么。",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 13,
+                      "fontSize": 14,
                       "fontWeight": "500"
                     }
                   ]
@@ -6686,7 +6696,7 @@
                   "type": "frame",
                   "id": "TA42u",
                   "name": "Badge",
-                  "fill": "#ffffff",
+                  "fill": "#FFE2D1",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -6704,7 +6714,7 @@
                       "type": "text",
                       "id": "1vkz8",
                       "name": "Top",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "本周打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -6715,14 +6725,24 @@
                       "type": "text",
                       "id": "w1R4E",
                       "name": "Bottom",
-                      "fill": "#0f172a",
+                      "fill": "#C45B2E",
                       "content": "8 次",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 16,
-                      "fontWeight": "700"
+                      "fontSize": 18,
+                      "fontWeight": "800"
                     }
-                  ]
+                  ],
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#B66A3620",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  }
                 }
               ]
             },
@@ -6738,7 +6758,7 @@
                   "id": "1Gux1",
                   "name": "Tab Today",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -6753,7 +6773,7 @@
                       "type": "text",
                       "id": "NKm4h",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "今天",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -6767,7 +6787,7 @@
                   "id": "kdUy3",
                   "name": "Tab Week",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#E67E4D",
                   "cornerRadius": 18,
                   "padding": 10,
                   "justifyContent": "center",
@@ -6777,7 +6797,7 @@
                       "type": "text",
                       "id": "4V0r4",
                       "name": "Label",
-                      "fill": "#ffffff",
+                      "fill": "#FFF7F1",
                       "content": "本周",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -6791,7 +6811,7 @@
                   "id": "nFPRZ",
                   "name": "Tab Month",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -6806,7 +6826,7 @@
                       "type": "text",
                       "id": "5ejUk",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "本月",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -6822,22 +6842,22 @@
               "id": "asLih",
               "name": "Records Stats Card",
               "width": "fill_container",
-              "fill": "#ffffff",
+              "fill": "#FFFCF8",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#e2e8f0"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 12,
@@ -6862,7 +6882,7 @@
                           "type": "text",
                           "id": "58z40",
                           "name": "Title",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "本周概览",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -6873,7 +6893,7 @@
                           "type": "text",
                           "id": "BggvB",
                           "name": "Body",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "早餐 3 次 · 午餐 3 次 · 晚餐 2 次",
                           "lineHeight": 1.4,
                           "fontFamily": "Inter",
@@ -6886,7 +6906,7 @@
                       "type": "text",
                       "id": "J2icB",
                       "name": "Value",
-                      "fill": "#0f172a",
+                      "fill": "#2F221C",
                       "content": "5 天连续",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -6907,7 +6927,7 @@
                       "id": "8eU2x",
                       "name": "Chip 1",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -6922,7 +6942,7 @@
                           "type": "text",
                           "id": "orzcd",
                           "name": "Top",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "最常见",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -6933,7 +6953,7 @@
                           "type": "text",
                           "id": "ynbbf",
                           "name": "Bottom",
-                          "fill": "#0f172a",
+                          "fill": "#C45B2E",
                           "content": "午餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -6947,7 +6967,7 @@
                       "id": "E3aGU",
                       "name": "Chip 2",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -6962,7 +6982,7 @@
                           "type": "text",
                           "id": "OIGOd",
                           "name": "Top",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "最新记录",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -6973,7 +6993,7 @@
                           "type": "text",
                           "id": "b73RA",
                           "name": "Bottom",
-                          "fill": "#0f172a",
+                          "fill": "#C45B2E",
                           "content": "12:36",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -6987,7 +7007,7 @@
                       "id": "LC0gS",
                       "name": "Chip 3",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -7002,7 +7022,7 @@
                           "type": "text",
                           "id": "hWY2j",
                           "name": "Top",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "完成率",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7013,7 +7033,7 @@
                           "type": "text",
                           "id": "tDTDA",
                           "name": "Bottom",
-                          "fill": "#0f172a",
+                          "fill": "#C45B2E",
                           "content": "67%",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7031,22 +7051,22 @@
               "id": "U034J",
               "name": "Records List Card",
               "width": "fill_container",
-              "fill": "#ffffff",
+              "fill": "#FFFCF8",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#e2e8f0"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 12,
@@ -7064,7 +7084,7 @@
                       "type": "text",
                       "id": "ji5Bq",
                       "name": "Title",
-                      "fill": "#0f172a",
+                      "fill": "#2F221C",
                       "content": "本周记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -7075,7 +7095,7 @@
                       "type": "text",
                       "id": "PsIEc",
                       "name": "Action",
-                      "fill": "#64748b",
+                      "fill": "#C45B2E",
                       "content": "查看全部",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -7089,12 +7109,12 @@
                   "id": "yj8i8",
                   "name": "Day 1",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1,
-                    "fill": "#e2e8f0"
+                    "fill": "#F2E1D3"
                   },
                   "layout": "vertical",
                   "gap": 8,
@@ -7112,7 +7132,7 @@
                           "type": "text",
                           "id": "IhsKy",
                           "name": "Date",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "今天",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7123,7 +7143,7 @@
                           "type": "text",
                           "id": "TnERj",
                           "name": "Count",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "2 条",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7151,7 +7171,7 @@
                               "type": "text",
                               "id": "povcM",
                               "name": "Meal",
-                              "fill": "#0f172a",
+                              "fill": "#2F221C",
                               "content": "午餐 · 番茄牛腩饭",
                               "lineHeight": 1.2,
                               "fontFamily": "Inter",
@@ -7162,7 +7182,7 @@
                               "type": "text",
                               "id": "Ctveq",
                               "name": "Note",
-                              "fill": "#64748b",
+                              "fill": "#8C6E5D",
                               "content": "配冰美式，吃得很满足。",
                               "lineHeight": 1.3,
                               "fontFamily": "Inter",
@@ -7175,7 +7195,7 @@
                           "type": "text",
                           "id": "cBfcf",
                           "name": "Time",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "12:36",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7203,7 +7223,7 @@
                               "type": "text",
                               "id": "1yZeA",
                               "name": "Meal",
-                              "fill": "#0f172a",
+                              "fill": "#2F221C",
                               "content": "早餐 · 酸奶水果杯",
                               "lineHeight": 1.2,
                               "fontFamily": "Inter",
@@ -7214,7 +7234,7 @@
                               "type": "text",
                               "id": "0pE3v",
                               "name": "Note",
-                              "fill": "#64748b",
+                              "fill": "#8C6E5D",
                               "content": "轻负担但很满足。",
                               "lineHeight": 1.3,
                               "fontFamily": "Inter",
@@ -7227,7 +7247,7 @@
                           "type": "text",
                           "id": "7xQ3t",
                           "name": "Time",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "08:10",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7243,12 +7263,12 @@
                   "id": "ROGNu",
                   "name": "Day 2",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1,
-                    "fill": "#e2e8f0"
+                    "fill": "#F2E1D3"
                   },
                   "layout": "vertical",
                   "gap": 8,
@@ -7266,7 +7286,7 @@
                           "type": "text",
                           "id": "PKGwl",
                           "name": "Date",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "昨天",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7277,7 +7297,7 @@
                           "type": "text",
                           "id": "LGqkc",
                           "name": "Count",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "1 条",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7305,7 +7325,7 @@
                               "type": "text",
                               "id": "3uwVj",
                               "name": "Meal",
-                              "fill": "#0f172a",
+                              "fill": "#2F221C",
                               "content": "晚餐 · 煎鸡胸沙拉",
                               "lineHeight": 1.2,
                               "fontFamily": "Inter",
@@ -7316,7 +7336,7 @@
                               "type": "text",
                               "id": "SVuUY",
                               "name": "Note",
-                              "fill": "#64748b",
+                              "fill": "#8C6E5D",
                               "content": "下班后快速解决的一顿。",
                               "lineHeight": 1.3,
                               "fontFamily": "Inter",
@@ -7329,7 +7349,7 @@
                           "type": "text",
                           "id": "aOlSW",
                           "name": "Time",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "19:12",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7363,22 +7383,22 @@
               "name": "Bottom Nav Pill",
               "width": "fill_container",
               "height": 62,
-              "fill": "#f8fafc",
+              "fill": "#FFF6ED",
               "cornerRadius": 36,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#cbd5e1"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "gap": 4,
               "padding": 4,
@@ -7389,7 +7409,7 @@
                   "name": "Tab Home",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 26,
                   "effect": {
                     "type": "shadow",
@@ -7409,13 +7429,13 @@
                       "height": 18,
                       "iconFontName": "house",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "LdR57",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "首页",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -7444,13 +7464,13 @@
                       "height": 18,
                       "iconFontName": "camera",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "D4wn8",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -7465,7 +7485,7 @@
                   "name": "Tab Calendar",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#E67E4D",
                   "cornerRadius": 26,
                   "effect": {
                     "type": "shadow",
@@ -7490,13 +7510,13 @@
                       "height": 18,
                       "iconFontName": "calendar-days",
                       "iconFontFamily": "lucide",
-                      "fill": "#ffffff"
+                      "fill": "#FFF7F1"
                     },
                     {
                       "type": "text",
                       "id": "dU0ln",
                       "name": "Label",
-                      "fill": "#ffffff",
+                      "fill": "#FFF7F1",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -7525,13 +7545,13 @@
                       "height": 18,
                       "iconFontName": "user-round",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "5Nh7B",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -7555,7 +7575,7 @@
       "clip": true,
       "width": 390,
       "height": 916,
-      "fill": "#ffffff",
+      "fill": "#FFF8F2",
       "cornerRadius": 36,
       "stroke": {
         "align": "inside",
@@ -7593,7 +7613,7 @@
               "type": "text",
               "id": "g0D7f",
               "name": "Time",
-              "fill": "#0f172a",
+              "fill": "#2F221C",
               "content": "09:41",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -7604,7 +7624,7 @@
               "type": "text",
               "id": "W5vkC",
               "name": "State",
-              "fill": "#475569",
+              "fill": "#8C6E5D",
               "content": "5G 100%",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -7646,22 +7666,22 @@
                       "type": "text",
                       "id": "QsJ9J",
                       "name": "Title",
-                      "fill": "#0f172a",
+                      "fill": "#2F221C",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 28,
-                      "fontWeight": "700"
+                      "fontSize": 30,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "HmlJE",
                       "name": "Body",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "查看你的打卡习惯和常用设置。",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 13,
+                      "fontSize": 14,
                       "fontWeight": "500"
                     }
                   ]
@@ -7670,7 +7690,7 @@
                   "type": "frame",
                   "id": "YCnM3",
                   "name": "Badge",
-                  "fill": "#ffffff",
+                  "fill": "#FFE2D1",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -7688,7 +7708,7 @@
                       "type": "text",
                       "id": "I50w6",
                       "name": "Top",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "已坚持",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -7699,14 +7719,24 @@
                       "type": "text",
                       "id": "pYA2j",
                       "name": "Bottom",
-                      "fill": "#0f172a",
+                      "fill": "#C45B2E",
                       "content": "5 天",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 16,
-                      "fontWeight": "700"
+                      "fontSize": 18,
+                      "fontWeight": "800"
                     }
-                  ]
+                  ],
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#B66A3620",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  }
                 }
               ]
             },
@@ -7715,22 +7745,22 @@
               "id": "9s12Z",
               "name": "Profile Card",
               "width": "fill_container",
-              "fill": "#ffffff",
+              "fill": "#FFFCF8",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#e2e8f0"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 14,
@@ -7750,7 +7780,7 @@
                       "name": "Avatar",
                       "width": 64,
                       "height": 64,
-                      "fill": "#0f172a",
+                      "fill": "#E67E4D",
                       "cornerRadius": 999,
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -7759,7 +7789,7 @@
                           "type": "text",
                           "id": "jsEGY",
                           "name": "Initial",
-                          "fill": "#ffffff",
+                          "fill": "#FFF7F1",
                           "content": "吃",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7779,18 +7809,18 @@
                           "type": "text",
                           "id": "B1UfY",
                           "name": "Name",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "今天也有好好吃饭",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "fontSize": 20,
+                          "fontWeight": "800"
                         },
                         {
                           "type": "text",
                           "id": "kb8wm",
                           "name": "Sub",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "连续 5 天打卡，今天还差晚餐。",
                           "lineHeight": 1.4,
                           "fontFamily": "Inter",
@@ -7813,7 +7843,7 @@
                       "id": "Y39Hq",
                       "name": "Stat 1",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -7828,7 +7858,7 @@
                           "type": "text",
                           "id": "RGjGQ",
                           "name": "Top",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "累计打卡",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7839,7 +7869,7 @@
                           "type": "text",
                           "id": "HAh5e",
                           "name": "Bottom",
-                          "fill": "#0f172a",
+                          "fill": "#C45B2E",
                           "content": "28 次",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7853,7 +7883,7 @@
                       "id": "RgqhK",
                       "name": "Stat 2",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -7868,7 +7898,7 @@
                           "type": "text",
                           "id": "RRren",
                           "name": "Top",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "最常打卡",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7879,7 +7909,7 @@
                           "type": "text",
                           "id": "Aoma3",
                           "name": "Bottom",
-                          "fill": "#0f172a",
+                          "fill": "#C45B2E",
                           "content": "午餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7893,7 +7923,7 @@
                       "id": "hK2gz",
                       "name": "Stat 3",
                       "width": "fill_container",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF1E6",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -7908,7 +7938,7 @@
                           "type": "text",
                           "id": "KHH11",
                           "name": "Top",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "本周完成",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7919,7 +7949,7 @@
                           "type": "text",
                           "id": "qF5S1",
                           "name": "Bottom",
-                          "fill": "#0f172a",
+                          "fill": "#C45B2E",
                           "content": "67%",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -7937,22 +7967,22 @@
               "id": "pFTc4",
               "name": "Actions Card",
               "width": "fill_container",
-              "fill": "#ffffff",
+              "fill": "#FFFCF8",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#e2e8f0"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 10,
@@ -7962,7 +7992,7 @@
                   "type": "text",
                   "id": "Int6Q",
                   "name": "Title",
-                  "fill": "#0f172a",
+                  "fill": "#2F221C",
                   "content": "快捷操作",
                   "lineHeight": 1.2,
                   "fontFamily": "Inter",
@@ -7974,7 +8004,7 @@
                   "id": "0Wede",
                   "name": "Action 1",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -7996,7 +8026,7 @@
                           "type": "text",
                           "id": "sjeWS",
                           "name": "Title",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "提醒设置",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8007,7 +8037,7 @@
                           "type": "text",
                           "id": "n6QZ8",
                           "name": "Sub",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "晚餐提醒 · 19:00",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8020,7 +8050,7 @@
                       "type": "text",
                       "id": "6icoL",
                       "name": "Arrow",
-                      "fill": "#64748b",
+                      "fill": "#C45B2E",
                       "content": "›",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8034,7 +8064,7 @@
                   "id": "8sLSw",
                   "name": "Action 2",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -8056,7 +8086,7 @@
                           "type": "text",
                           "id": "txU0w",
                           "name": "Title",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "导出记录",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8067,7 +8097,7 @@
                           "type": "text",
                           "id": "SNRr0",
                           "name": "Sub",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "导出本周与本月的打卡内容",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8080,7 +8110,7 @@
                       "type": "text",
                       "id": "KSswu",
                       "name": "Arrow",
-                      "fill": "#64748b",
+                      "fill": "#C45B2E",
                       "content": "›",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8094,7 +8124,7 @@
                   "id": "oZc41",
                   "name": "Action 3",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -8116,7 +8146,7 @@
                           "type": "text",
                           "id": "ogFFm",
                           "name": "Title",
-                          "fill": "#0f172a",
+                          "fill": "#2F221C",
                           "content": "隐私与同步",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8127,7 +8157,7 @@
                           "type": "text",
                           "id": "mgSCZ",
                           "name": "Sub",
-                          "fill": "#64748b",
+                          "fill": "#8C6E5D",
                           "content": "仅自己可见 · 云端已开启",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8140,7 +8170,7 @@
                       "type": "text",
                       "id": "XnEoO",
                       "name": "Arrow",
-                      "fill": "#64748b",
+                      "fill": "#C45B2E",
                       "content": "›",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8156,17 +8186,17 @@
               "id": "ngKDf",
               "name": "Profile Footer Card",
               "width": "fill_container",
-              "fill": "#64748b",
+              "fill": "#E67E4D",
               "cornerRadius": 24,
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a10",
+                "color": "#B66A3628",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 12
                 },
-                "blur": 10
+                "blur": 28
               },
               "layout": "vertical",
               "gap": 6,
@@ -8176,7 +8206,7 @@
                   "type": "text",
                   "id": "IeMAc",
                   "name": "Title",
-                  "fill": "#ffffff",
+                  "fill": "#FFF7F1",
                   "content": "继续保持",
                   "lineHeight": 1.2,
                   "fontFamily": "Inter",
@@ -8187,14 +8217,19 @@
                   "type": "text",
                   "id": "qkGlW",
                   "name": "Body",
-                  "fill": "#f8fafc",
+                  "fill": "#FFEBDD",
                   "content": "今天再完成晚餐打卡，就能把连续记录延长到 6 天。",
                   "lineHeight": 1.4,
                   "fontFamily": "Inter",
-                  "fontSize": 12,
+                  "fontSize": 13,
                   "fontWeight": "500"
                 }
-              ]
+              ],
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#D46A39"
+              }
             }
           ]
         },
@@ -8217,22 +8252,22 @@
               "name": "Bottom Nav Pill",
               "width": "fill_container",
               "height": 62,
-              "fill": "#f8fafc",
+              "fill": "#FFF6ED",
               "cornerRadius": 36,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#cbd5e1"
+                "fill": "#F0DDCF"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0f172a0a",
+                "color": "#B66A3620",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "gap": 4,
               "padding": 4,
@@ -8243,7 +8278,7 @@
                   "name": "Tab Home",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF1E6",
                   "cornerRadius": 26,
                   "effect": {
                     "type": "shadow",
@@ -8263,13 +8298,13 @@
                       "height": 18,
                       "iconFontName": "house",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "Ojcvo",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "首页",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8298,13 +8333,13 @@
                       "height": 18,
                       "iconFontName": "camera",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "54lkb",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8333,13 +8368,13 @@
                       "height": 18,
                       "iconFontName": "calendar-days",
                       "iconFontFamily": "lucide",
-                      "fill": "#64748b"
+                      "fill": "#8C6E5D"
                     },
                     {
                       "type": "text",
                       "id": "Ilw7z",
                       "name": "Label",
-                      "fill": "#64748b",
+                      "fill": "#8C6E5D",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8354,7 +8389,7 @@
                   "name": "Tab Me",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#E67E4D",
                   "cornerRadius": 26,
                   "effect": {
                     "type": "shadow",
@@ -8379,13 +8414,13 @@
                       "height": 18,
                       "iconFontName": "user-round",
                       "iconFontFamily": "lucide",
-                      "fill": "#ffffff"
+                      "fill": "#FFF7F1"
                     },
                     {
                       "type": "text",
                       "id": "WicjW",
                       "name": "Label",
-                      "fill": "#ffffff",
+                      "fill": "#FFF7F1",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8409,7 +8444,7 @@
       "clip": true,
       "width": 390,
       "height": 844,
-      "fill": "#020617",
+      "fill": "#1E1714",
       "cornerRadius": 36,
       "stroke": {
         "align": "inside",
@@ -8447,7 +8482,7 @@
               "type": "text",
               "id": "ALc2v",
               "name": "Time",
-              "fill": "#f8fafc",
+              "fill": "#FFF6EF",
               "content": "09:41",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -8458,7 +8493,7 @@
               "type": "text",
               "id": "gTOTE",
               "name": "State",
-              "fill": "#94a3b8",
+              "fill": "#D8C0B0",
               "content": "5G 100%",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -8500,18 +8535,18 @@
                       "type": "text",
                       "id": "UgT0Q",
                       "name": "Title",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 28,
-                      "fontWeight": "700"
+                      "fontSize": 30,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "qJB0E",
                       "name": "Body",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "回看今天与本周都吃了什么。",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
@@ -8524,7 +8559,7 @@
                   "type": "frame",
                   "id": "Z3opP",
                   "name": "Badge",
-                  "fill": "#111827",
+                  "fill": "#6B402B",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -8542,7 +8577,7 @@
                       "type": "text",
                       "id": "LtDfm",
                       "name": "Top",
-                      "fill": "#94a3b8",
+                      "fill": "#F0C29D",
                       "content": "本周打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8553,14 +8588,24 @@
                       "type": "text",
                       "id": "TT57q",
                       "name": "Bottom",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "8 次",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
                       "fontSize": 16,
                       "fontWeight": "700"
                     }
-                  ]
+                  ],
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000040",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  }
                 }
               ]
             },
@@ -8576,7 +8621,7 @@
                   "id": "tKs27",
                   "name": "Tab Today",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -8591,7 +8636,7 @@
                       "type": "text",
                       "id": "yq4t3",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "今天",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8605,7 +8650,7 @@
                   "id": "8qda0",
                   "name": "Tab Week",
                   "width": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#F4A261",
                   "cornerRadius": 18,
                   "padding": 10,
                   "justifyContent": "center",
@@ -8615,7 +8660,7 @@
                       "type": "text",
                       "id": "CCiiM",
                       "name": "Label",
-                      "fill": "#0f172a",
+                      "fill": "#2A1B14",
                       "content": "本周",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8629,7 +8674,7 @@
                   "id": "zvjcE",
                   "name": "Tab Month",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -8644,7 +8689,7 @@
                       "type": "text",
                       "id": "VPKJp",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "本月",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8660,22 +8705,22 @@
               "id": "0UawV",
               "name": "Records Stats Card",
               "width": "fill_container",
-              "fill": "#111827",
+              "fill": "#2B211D",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#00000022",
+                "color": "#00000040",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 12,
@@ -8700,7 +8745,7 @@
                           "type": "text",
                           "id": "9bgPQ",
                           "name": "Title",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "本周概览",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8711,7 +8756,7 @@
                           "type": "text",
                           "id": "Uyvu9",
                           "name": "Body",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "早餐 3 次 · 午餐 3 次 · 晚餐 2 次",
                           "lineHeight": 1.4,
                           "fontFamily": "Inter",
@@ -8724,7 +8769,7 @@
                       "type": "text",
                       "id": "Aw8qK",
                       "name": "Value",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "5 天连续",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8745,7 +8790,7 @@
                       "id": "dl2Te",
                       "name": "Chip 1",
                       "width": "fill_container",
-                      "fill": "#0f172a",
+                      "fill": "#3A2B25",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -8760,7 +8805,7 @@
                           "type": "text",
                           "id": "oH7rh",
                           "name": "Top",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "最常见",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8771,7 +8816,7 @@
                           "type": "text",
                           "id": "lWNE9",
                           "name": "Bottom",
-                          "fill": "#f8fafc",
+                          "fill": "#F4C29D",
                           "content": "午餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8785,7 +8830,7 @@
                       "id": "weqMg",
                       "name": "Chip 2",
                       "width": "fill_container",
-                      "fill": "#0f172a",
+                      "fill": "#3A2B25",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -8800,7 +8845,7 @@
                           "type": "text",
                           "id": "WiqrS",
                           "name": "Top",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "最新记录",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8811,7 +8856,7 @@
                           "type": "text",
                           "id": "heX7p",
                           "name": "Bottom",
-                          "fill": "#f8fafc",
+                          "fill": "#F4C29D",
                           "content": "12:36",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8825,7 +8870,7 @@
                       "id": "0lQYs",
                       "name": "Chip 3",
                       "width": "fill_container",
-                      "fill": "#0f172a",
+                      "fill": "#3A2B25",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -8840,7 +8885,7 @@
                           "type": "text",
                           "id": "D0F3c",
                           "name": "Top",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "完成率",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8851,7 +8896,7 @@
                           "type": "text",
                           "id": "pZetm",
                           "name": "Bottom",
-                          "fill": "#f8fafc",
+                          "fill": "#F4C29D",
                           "content": "67%",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8869,22 +8914,22 @@
               "id": "1Lt9a",
               "name": "Records List Card",
               "width": "fill_container",
-              "fill": "#111827",
+              "fill": "#2B211D",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#00000022",
+                "color": "#00000040",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 12,
@@ -8902,7 +8947,7 @@
                       "type": "text",
                       "id": "1514L",
                       "name": "Title",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "本周记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8913,7 +8958,7 @@
                       "type": "text",
                       "id": "rocvB",
                       "name": "Action",
-                      "fill": "#94a3b8",
+                      "fill": "#F4C29D",
                       "content": "查看全部",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -8927,12 +8972,12 @@
                   "id": "CRRs5",
                   "name": "Day 1",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1,
-                    "fill": "#1f2937"
+                    "fill": "#523C32"
                   },
                   "layout": "vertical",
                   "gap": 8,
@@ -8950,7 +8995,7 @@
                           "type": "text",
                           "id": "2b9HT",
                           "name": "Date",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "今天",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8961,7 +9006,7 @@
                           "type": "text",
                           "id": "fafzy",
                           "name": "Count",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "2 条",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -8989,7 +9034,7 @@
                               "type": "text",
                               "id": "vLcit",
                               "name": "Meal",
-                              "fill": "#f8fafc",
+                              "fill": "#FFF6EF",
                               "content": "午餐 · 番茄牛腩饭",
                               "lineHeight": 1.2,
                               "fontFamily": "Inter",
@@ -9000,7 +9045,7 @@
                               "type": "text",
                               "id": "GSeSF",
                               "name": "Note",
-                              "fill": "#94a3b8",
+                              "fill": "#D8C0B0",
                               "content": "配冰美式，吃得很满足。",
                               "lineHeight": 1.3,
                               "fontFamily": "Inter",
@@ -9013,7 +9058,7 @@
                           "type": "text",
                           "id": "O3Jfw",
                           "name": "Time",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "12:36",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9041,7 +9086,7 @@
                               "type": "text",
                               "id": "bmSF1",
                               "name": "Meal",
-                              "fill": "#f8fafc",
+                              "fill": "#FFF6EF",
                               "content": "早餐 · 酸奶水果杯",
                               "lineHeight": 1.2,
                               "fontFamily": "Inter",
@@ -9052,7 +9097,7 @@
                               "type": "text",
                               "id": "q3kh3",
                               "name": "Note",
-                              "fill": "#94a3b8",
+                              "fill": "#D8C0B0",
                               "content": "轻负担但很满足。",
                               "lineHeight": 1.3,
                               "fontFamily": "Inter",
@@ -9065,7 +9110,7 @@
                           "type": "text",
                           "id": "0PgcO",
                           "name": "Time",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "08:10",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9081,12 +9126,12 @@
                   "id": "KVqqh",
                   "name": "Day 2",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1,
-                    "fill": "#1f2937"
+                    "fill": "#523C32"
                   },
                   "layout": "vertical",
                   "gap": 8,
@@ -9104,7 +9149,7 @@
                           "type": "text",
                           "id": "PFyPl",
                           "name": "Date",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "昨天",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9115,7 +9160,7 @@
                           "type": "text",
                           "id": "UIE6r",
                           "name": "Count",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "1 条",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9143,7 +9188,7 @@
                               "type": "text",
                               "id": "elaAb",
                               "name": "Meal",
-                              "fill": "#f8fafc",
+                              "fill": "#FFF6EF",
                               "content": "晚餐 · 煎鸡胸沙拉",
                               "lineHeight": 1.2,
                               "fontFamily": "Inter",
@@ -9154,7 +9199,7 @@
                               "type": "text",
                               "id": "a34oo",
                               "name": "Note",
-                              "fill": "#94a3b8",
+                              "fill": "#D8C0B0",
                               "content": "下班后快速解决的一顿。",
                               "lineHeight": 1.3,
                               "fontFamily": "Inter",
@@ -9167,7 +9212,7 @@
                           "type": "text",
                           "id": "TWAHK",
                           "name": "Time",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "19:12",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9201,22 +9246,22 @@
               "name": "Bottom Nav Pill",
               "width": "fill_container",
               "height": 62,
-              "fill": "#0f172a",
+              "fill": "#2A201C",
               "cornerRadius": 36,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0000001f",
+                "color": "#00000040",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "gap": 4,
               "padding": 4,
@@ -9227,7 +9272,7 @@
                   "name": "Tab Home",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 26,
                   "stroke": {
                     "align": "inside",
@@ -9252,13 +9297,13 @@
                       "height": 18,
                       "iconFontName": "house",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "JFuYI",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "首页",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -9287,13 +9332,13 @@
                       "height": 18,
                       "iconFontName": "camera",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "FC5oz",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -9308,7 +9353,7 @@
                   "name": "Tab Calendar",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#F4A261",
                   "cornerRadius": 26,
                   "stroke": {
                     "align": "inside",
@@ -9338,13 +9383,13 @@
                       "height": 18,
                       "iconFontName": "calendar-days",
                       "iconFontFamily": "lucide",
-                      "fill": "#0f172a"
+                      "fill": "#2A1B14"
                     },
                     {
                       "type": "text",
                       "id": "rLTaF",
                       "name": "Label",
-                      "fill": "#0f172a",
+                      "fill": "#2A1B14",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -9373,13 +9418,13 @@
                       "height": 18,
                       "iconFontName": "user-round",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "JSd5V",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -9403,7 +9448,7 @@
       "clip": true,
       "width": 390,
       "height": 844,
-      "fill": "#020617",
+      "fill": "#1E1714",
       "cornerRadius": 36,
       "stroke": {
         "align": "inside",
@@ -9441,7 +9486,7 @@
               "type": "text",
               "id": "29Zrv",
               "name": "Time",
-              "fill": "#f8fafc",
+              "fill": "#FFF6EF",
               "content": "09:41",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -9452,7 +9497,7 @@
               "type": "text",
               "id": "MAIL5",
               "name": "State",
-              "fill": "#94a3b8",
+              "fill": "#D8C0B0",
               "content": "5G 100%",
               "lineHeight": 1,
               "fontFamily": "Inter",
@@ -9494,18 +9539,18 @@
                       "type": "text",
                       "id": "y5VZj",
                       "name": "Title",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
-                      "fontSize": 28,
-                      "fontWeight": "700"
+                      "fontSize": 30,
+                      "fontWeight": "800"
                     },
                     {
                       "type": "text",
                       "id": "nQUOY",
                       "name": "Body",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "查看你的打卡习惯和常用设置。",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
@@ -9518,7 +9563,7 @@
                   "type": "frame",
                   "id": "Dy9qw",
                   "name": "Badge",
-                  "fill": "#111827",
+                  "fill": "#6B402B",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -9536,7 +9581,7 @@
                       "type": "text",
                       "id": "I4Te4",
                       "name": "Top",
-                      "fill": "#94a3b8",
+                      "fill": "#F0C29D",
                       "content": "已坚持",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -9547,14 +9592,24 @@
                       "type": "text",
                       "id": "rvJ4J",
                       "name": "Bottom",
-                      "fill": "#f8fafc",
+                      "fill": "#FFF6EF",
                       "content": "5 天",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
                       "fontSize": 16,
                       "fontWeight": "700"
                     }
-                  ]
+                  ],
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000040",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 18
+                  }
                 }
               ]
             },
@@ -9563,22 +9618,22 @@
               "id": "kgiN6",
               "name": "Profile Card",
               "width": "fill_container",
-              "fill": "#111827",
+              "fill": "#2B211D",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#00000022",
+                "color": "#00000040",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 14,
@@ -9598,7 +9653,7 @@
                       "name": "Avatar",
                       "width": 64,
                       "height": 64,
-                      "fill": "#f8fafc",
+                      "fill": "#F4A261",
                       "cornerRadius": 999,
                       "justifyContent": "center",
                       "alignItems": "center",
@@ -9607,7 +9662,7 @@
                           "type": "text",
                           "id": "l2q9T",
                           "name": "Initial",
-                          "fill": "#0f172a",
+                          "fill": "#2A1B14",
                           "content": "吃",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9627,18 +9682,18 @@
                           "type": "text",
                           "id": "kOsuv",
                           "name": "Name",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "今天也有好好吃饭",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "fontSize": 20,
+                          "fontWeight": "800"
                         },
                         {
                           "type": "text",
                           "id": "o3WQP",
                           "name": "Sub",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "连续 5 天打卡，今天还差晚餐。",
                           "lineHeight": 1.4,
                           "fontFamily": "Inter",
@@ -9661,7 +9716,7 @@
                       "id": "WdaC5",
                       "name": "Stat 1",
                       "width": "fill_container",
-                      "fill": "#0f172a",
+                      "fill": "#3A2B25",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -9676,7 +9731,7 @@
                           "type": "text",
                           "id": "tTai1",
                           "name": "Top",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "累计打卡",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9687,7 +9742,7 @@
                           "type": "text",
                           "id": "lfZc1",
                           "name": "Bottom",
-                          "fill": "#f8fafc",
+                          "fill": "#F4C29D",
                           "content": "28 次",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9701,7 +9756,7 @@
                       "id": "IYstJ",
                       "name": "Stat 2",
                       "width": "fill_container",
-                      "fill": "#0f172a",
+                      "fill": "#3A2B25",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -9716,7 +9771,7 @@
                           "type": "text",
                           "id": "2ibVg",
                           "name": "Top",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "最常打卡",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9727,7 +9782,7 @@
                           "type": "text",
                           "id": "eqMn6",
                           "name": "Bottom",
-                          "fill": "#f8fafc",
+                          "fill": "#F4C29D",
                           "content": "午餐",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9741,7 +9796,7 @@
                       "id": "8ZQng",
                       "name": "Stat 3",
                       "width": "fill_container",
-                      "fill": "#0f172a",
+                      "fill": "#3A2B25",
                       "cornerRadius": 18,
                       "stroke": {
                         "align": "inside",
@@ -9756,7 +9811,7 @@
                           "type": "text",
                           "id": "kcOWJ",
                           "name": "Top",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "本周完成",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9767,7 +9822,7 @@
                           "type": "text",
                           "id": "eWTj0",
                           "name": "Bottom",
-                          "fill": "#f8fafc",
+                          "fill": "#F4C29D",
                           "content": "67%",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9785,22 +9840,22 @@
               "id": "ZhBgd",
               "name": "Actions Card",
               "width": "fill_container",
-              "fill": "#111827",
+              "fill": "#2B211D",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#00000022",
+                "color": "#00000040",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "layout": "vertical",
               "gap": 10,
@@ -9810,7 +9865,7 @@
                   "type": "text",
                   "id": "6JkKy",
                   "name": "Title",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF6EF",
                   "content": "快捷操作",
                   "lineHeight": 1.2,
                   "fontFamily": "Inter",
@@ -9822,7 +9877,7 @@
                   "id": "RKJ12",
                   "name": "Action 1",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -9844,7 +9899,7 @@
                           "type": "text",
                           "id": "iXno2",
                           "name": "Title",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "提醒设置",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9855,7 +9910,7 @@
                           "type": "text",
                           "id": "pgWMn",
                           "name": "Sub",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "晚餐提醒 · 19:00",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9868,7 +9923,7 @@
                       "type": "text",
                       "id": "ecRiz",
                       "name": "Arrow",
-                      "fill": "#94a3b8",
+                      "fill": "#F4C29D",
                       "content": "›",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -9882,7 +9937,7 @@
                   "id": "d12to",
                   "name": "Action 2",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -9904,7 +9959,7 @@
                           "type": "text",
                           "id": "W0r7B",
                           "name": "Title",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "导出记录",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9915,7 +9970,7 @@
                           "type": "text",
                           "id": "3eEiH",
                           "name": "Sub",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "导出本周与本月的打卡内容",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9928,7 +9983,7 @@
                       "type": "text",
                       "id": "z67fZ",
                       "name": "Arrow",
-                      "fill": "#94a3b8",
+                      "fill": "#F4C29D",
                       "content": "›",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -9942,7 +9997,7 @@
                   "id": "2kjLO",
                   "name": "Action 3",
                   "width": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 18,
                   "stroke": {
                     "align": "inside",
@@ -9964,7 +10019,7 @@
                           "type": "text",
                           "id": "w4c70",
                           "name": "Title",
-                          "fill": "#f8fafc",
+                          "fill": "#FFF6EF",
                           "content": "隐私与同步",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9975,7 +10030,7 @@
                           "type": "text",
                           "id": "0wJRQ",
                           "name": "Sub",
-                          "fill": "#94a3b8",
+                          "fill": "#D8C0B0",
                           "content": "仅自己可见 · 云端已开启",
                           "lineHeight": 1.2,
                           "fontFamily": "Inter",
@@ -9988,7 +10043,7 @@
                       "type": "text",
                       "id": "9fJ8I",
                       "name": "Arrow",
-                      "fill": "#94a3b8",
+                      "fill": "#F4C29D",
                       "content": "›",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -10004,22 +10059,22 @@
               "id": "GqIQJ",
               "name": "Profile Footer Card",
               "width": "fill_container",
-              "fill": "#1f2937",
+              "fill": "#5A3625",
               "cornerRadius": 24,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#334155"
+                "fill": "#7B503A"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#00000022",
+                "color": "#00000055",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 14
                 },
-                "blur": 10
+                "blur": 28
               },
               "layout": "vertical",
               "gap": 6,
@@ -10029,7 +10084,7 @@
                   "type": "text",
                   "id": "kLLlZ",
                   "name": "Title",
-                  "fill": "#f8fafc",
+                  "fill": "#FFF6EF",
                   "content": "继续保持",
                   "lineHeight": 1.2,
                   "fontFamily": "Inter",
@@ -10040,11 +10095,11 @@
                   "type": "text",
                   "id": "AJZDM",
                   "name": "Body",
-                  "fill": "#cbd5e1",
+                  "fill": "#F1D2BC",
                   "content": "今天再完成晚餐打卡，就能把连续记录延长到 6 天。",
                   "lineHeight": 1.4,
                   "fontFamily": "Inter",
-                  "fontSize": 12,
+                  "fontSize": 13,
                   "fontWeight": "500"
                 }
               ]
@@ -10070,22 +10125,22 @@
               "name": "Bottom Nav Pill",
               "width": "fill_container",
               "height": 62,
-              "fill": "#0f172a",
+              "fill": "#2A201C",
               "cornerRadius": 36,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
-                "fill": "#1f2937"
+                "fill": "#4C372D"
               },
               "effect": {
                 "type": "shadow",
                 "shadowType": "outer",
-                "color": "#0000001f",
+                "color": "#00000040",
                 "offset": {
                   "x": 0,
-                  "y": 4
+                  "y": 8
                 },
-                "blur": 10
+                "blur": 18
               },
               "gap": 4,
               "padding": 4,
@@ -10096,7 +10151,7 @@
                   "name": "Tab Home",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#0f172a",
+                  "fill": "#3A2B25",
                   "cornerRadius": 26,
                   "stroke": {
                     "align": "inside",
@@ -10121,13 +10176,13 @@
                       "height": 18,
                       "iconFontName": "house",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "MtHo6",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "首页",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -10156,13 +10211,13 @@
                       "height": 18,
                       "iconFontName": "camera",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "6r1kZ",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "打卡",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -10191,13 +10246,13 @@
                       "height": 18,
                       "iconFontName": "calendar-days",
                       "iconFontFamily": "lucide",
-                      "fill": "#94a3b8"
+                      "fill": "#D8C0B0"
                     },
                     {
                       "type": "text",
                       "id": "njWHu",
                       "name": "Label",
-                      "fill": "#94a3b8",
+                      "fill": "#D8C0B0",
                       "content": "记录",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
@@ -10212,7 +10267,7 @@
                   "name": "Tab Me",
                   "width": "fill_container",
                   "height": "fill_container",
-                  "fill": "#f8fafc",
+                  "fill": "#F4A261",
                   "cornerRadius": 26,
                   "stroke": {
                     "align": "inside",
@@ -10242,13 +10297,13 @@
                       "height": 18,
                       "iconFontName": "user-round",
                       "iconFontFamily": "lucide",
-                      "fill": "#0f172a"
+                      "fill": "#2A1B14"
                     },
                     {
                       "type": "text",
                       "id": "TqBti",
                       "name": "Label",
-                      "fill": "#0f172a",
+                      "fill": "#2A1B14",
                       "content": "我的",
                       "lineHeight": 1.2,
                       "fontFamily": "Inter",
