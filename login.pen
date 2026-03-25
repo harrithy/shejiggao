@@ -1,0 +1,1571 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Gwjjd",
+      "x": 0,
+      "y": 0,
+      "name": "Reference Anime Login",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 116,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "$anime--page-peach",
+            "position": 0
+          },
+          {
+            "color": "#FFF8FC",
+            "position": 0.42
+          },
+          {
+            "color": "$anime--page-blue",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "ellipse",
+          "id": "DXFnr",
+          "x": -180,
+          "y": -40,
+          "name": "glowPink",
+          "fill": "#F8B6D744",
+          "width": 560,
+          "height": 560,
+          "effect": {
+            "type": "blur",
+            "radius": 120
+          }
+        },
+        {
+          "type": "ellipse",
+          "id": "CFiFR",
+          "x": 1080,
+          "y": 120,
+          "name": "glowBlue",
+          "fill": "#D7E8FF55",
+          "width": 520,
+          "height": 520,
+          "effect": {
+            "type": "blur",
+            "radius": 120
+          }
+        },
+        {
+          "type": "ellipse",
+          "id": "xu6Gb",
+          "x": 560,
+          "y": 720,
+          "name": "bloomOrange",
+          "fill": "#FFD2A144",
+          "width": 320,
+          "height": 320,
+          "effect": {
+            "type": "blur",
+            "radius": 100
+          }
+        },
+        {
+          "type": "ellipse",
+          "id": "IiXvm",
+          "x": 1040,
+          "y": 40,
+          "name": "rightMoon",
+          "fill": "#FFFFFF3D",
+          "width": 260,
+          "height": 260
+        },
+        {
+          "type": "frame",
+          "id": "VL4oB",
+          "x": 270,
+          "y": 150,
+          "name": "content",
+          "width": 980,
+          "height": 640,
+          "gap": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "LVGVV",
+              "name": "centerZone",
+              "width": 600,
+              "height": "fill_container",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GqauE",
+                  "x": 0,
+                  "y": 110,
+                  "name": "centerPanel",
+                  "width": 590,
+                  "height": 420,
+                  "fill": "#FFFFFF1F",
+                  "cornerRadius": 30,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#FFFFFF33"
+                  },
+                  "layout": "none"
+                },
+                {
+                  "type": "text",
+                  "id": "C3dvV",
+                  "x": 52,
+                  "y": 276,
+                  "name": "selectTitle",
+                  "fill": "#B992A8",
+                  "content": "BAND SELECT",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "4pvpG",
+                  "x": 52,
+                  "y": 322,
+                  "name": "selectList",
+                  "width": 170,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "imtQh",
+                      "name": "item1",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "$anime--orange",
+                            "position": 0
+                          },
+                          {
+                            "color": "$anime--orange-soft",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": "$anime--radius-pill",
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#F2B17A4D",
+                        "offset": {
+                          "x": 0,
+                          "y": 12
+                        },
+                        "blur": 24
+                      },
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rnngZ",
+                          "name": "item1Text",
+                          "fill": "#FFFFFF",
+                          "content": "轻音少女",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uK6UV",
+                      "name": "item2",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFFB5",
+                      "cornerRadius": "$anime--radius-pill",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#F3DCE7"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cqzlo",
+                          "name": "item2Text",
+                          "fill": "#B57F98",
+                          "content": "孤独摇滚！",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2f3HE",
+                      "name": "item3",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFFB5",
+                      "cornerRadius": "$anime--radius-pill",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#F3DCE7"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SgWRC",
+                          "name": "item3Text",
+                          "fill": "#B57F98",
+                          "content": "少女乐队的呐喊",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pWaJf",
+                      "name": "item4",
+                      "width": "fill_container",
+                      "height": 40,
+                      "fill": "#FFFFFFB5",
+                      "cornerRadius": "$anime--radius-pill",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#F3DCE7"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sr2Zp",
+                          "name": "item4Text",
+                          "fill": "#B57F98",
+                          "content": "MyGO!!!!!",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FNto2",
+                  "x": 150,
+                  "y": 64,
+                  "name": "stage",
+                  "width": 430,
+                  "height": 560,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HQssj",
+                      "x": 114,
+                      "y": 0,
+                      "name": "cardCenter",
+                      "width": 228,
+                      "height": 338,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "$anime--cream",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFF6EF",
+                            "position": 0.56
+                          },
+                          {
+                            "color": "$anime--card-dark-2",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 30,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 4,
+                        "fill": "#F6C69B"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "$anime--shadow-soft",
+                        "offset": {
+                          "x": 0,
+                          "y": 26
+                        },
+                        "blur": 50
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 29,
+                          "id": "zbM0N",
+                          "x": 136,
+                          "y": 68,
+                          "name": "centerBody",
+                          "fill": "#47485B",
+                          "width": 58,
+                          "height": 196
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "1WuXY",
+                          "x": 116,
+                          "y": 12,
+                          "name": "centerHead",
+                          "fill": "#B88458",
+                          "width": 72,
+                          "height": 88
+                        },
+                        {
+                          "type": "text",
+                          "id": "X26Td",
+                          "x": 18,
+                          "y": 286,
+                          "name": "centerLabel",
+                          "fill": "$anime--orange-soft",
+                          "content": "唯",
+                          "fontFamily": "Roboto",
+                          "fontSize": 24,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m2EYx",
+                      "x": 76,
+                      "y": 158,
+                      "name": "cardLeftBack",
+                      "rotation": -12.000000000000002,
+                      "width": 180,
+                      "height": 258,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#F7F9FF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#EAECF5",
+                            "position": 0.54
+                          },
+                          {
+                            "color": "$anime--card-dark-2",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 26,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 3,
+                        "fill": "#FFFFFFB0"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#C9BDD255",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 38
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 22,
+                          "id": "i7ZwT",
+                          "x": 100,
+                          "y": 76,
+                          "name": "leftBackBody",
+                          "fill": "#414761",
+                          "width": 44,
+                          "height": 150
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "4GIbz",
+                          "x": 87,
+                          "y": 26,
+                          "name": "leftBackHead",
+                          "fill": "#43434A",
+                          "width": 60,
+                          "height": 70
+                        },
+                        {
+                          "type": "text",
+                          "id": "tkHDF",
+                          "x": 18,
+                          "y": 216,
+                          "name": "leftBackLabel",
+                          "fill": "#A8B6FF",
+                          "content": "澪",
+                          "fontFamily": "Roboto",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gXSJH",
+                      "x": 16,
+                      "y": 244,
+                      "name": "cardLeftFront",
+                      "rotation": -18,
+                      "width": 188,
+                      "height": 268,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F3F6FF",
+                            "position": 0.52
+                          },
+                          {
+                            "color": "$anime--card-dark-2",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 26,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 3,
+                        "fill": "#FFFFFFCC"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#CEC0D855",
+                        "offset": {
+                          "x": 0,
+                          "y": 24
+                        },
+                        "blur": 46
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 24,
+                          "id": "qobQ0",
+                          "x": 90,
+                          "y": 80,
+                          "name": "leftFrontBody",
+                          "fill": "#465374",
+                          "width": 48,
+                          "height": 154
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "Gd8un",
+                          "x": 78,
+                          "y": 26,
+                          "name": "leftFrontHead",
+                          "fill": "#444750",
+                          "width": 66,
+                          "height": 76
+                        },
+                        {
+                          "type": "text",
+                          "id": "PorAN",
+                          "x": 18,
+                          "y": 224,
+                          "name": "leftFrontLabel",
+                          "fill": "#8EA9FF",
+                          "content": "梓",
+                          "fontFamily": "Roboto",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yqV9Q",
+                      "x": 252,
+                      "y": 156,
+                      "name": "cardRightBack",
+                      "rotation": 12.000000000000002,
+                      "width": 178,
+                      "height": 258,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFDF9",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFF0E5",
+                            "position": 0.56
+                          },
+                          {
+                            "color": "$anime--card-dark-2",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 26,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 3,
+                        "fill": "#FFFFFFCC"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#D8C0C855",
+                        "offset": {
+                          "x": 0,
+                          "y": 20
+                        },
+                        "blur": 38
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 22,
+                          "id": "0yzE7",
+                          "x": 96,
+                          "y": 74,
+                          "name": "rightBackBody",
+                          "fill": "#5D585D",
+                          "width": 44,
+                          "height": 154
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "KoKD6",
+                          "x": 84,
+                          "y": 24,
+                          "name": "rightBackHead",
+                          "fill": "#D4B274",
+                          "width": 60,
+                          "height": 70
+                        },
+                        {
+                          "type": "text",
+                          "id": "UvJdn",
+                          "x": 20,
+                          "y": 216,
+                          "name": "rightBackLabel",
+                          "fill": "#F2C88F",
+                          "content": "律",
+                          "fontFamily": "Roboto",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f1xqW",
+                      "x": 260,
+                      "y": 248,
+                      "name": "cardRightFront",
+                      "rotation": 18,
+                      "width": 186,
+                      "height": 268,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFFFFF",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFF9E9",
+                            "position": 0.5
+                          },
+                          {
+                            "color": "$anime--card-dark-2",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 26,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 3,
+                        "fill": "#FFFFFFCC"
+                      },
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#DCC8C855",
+                        "offset": {
+                          "x": 0,
+                          "y": 24
+                        },
+                        "blur": 46
+                      },
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 22,
+                          "id": "vgdUr",
+                          "x": 100,
+                          "y": 82,
+                          "name": "rightFrontBody",
+                          "fill": "#656776",
+                          "width": 44,
+                          "height": 150
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "AsvXt",
+                          "x": 88,
+                          "y": 24,
+                          "name": "rightFrontHead",
+                          "fill": "#E3D5A1",
+                          "width": 58,
+                          "height": 72
+                        },
+                        {
+                          "type": "text",
+                          "id": "xqnY3",
+                          "x": 18,
+                          "y": 224,
+                          "name": "rightFrontLabel",
+                          "fill": "#F7E6A7",
+                          "content": "紬",
+                          "fontFamily": "Roboto",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "ellipse",
+                  "id": "8UyFS",
+                  "x": 294,
+                  "y": 420,
+                  "name": "stageGlow",
+                  "fill": "#FFE1BF77",
+                  "width": 260,
+                  "height": 260,
+                  "effect": {
+                    "type": "blur",
+                    "radius": 90
+                  }
+                },
+                {
+                  "type": "ellipse",
+                  "id": "q45OL",
+                  "x": 210,
+                  "y": 268,
+                  "name": "haloRing",
+                  "innerRadius": 0.997,
+                  "fill": "#F2DAE91F",
+                  "width": 460,
+                  "height": 460,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#F0D9E660"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aCL6d",
+              "name": "authZone",
+              "width": 332,
+              "height": "fill_container",
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hJskd",
+                  "name": "authCard",
+                  "width": "fill_container",
+                  "fill": "#FFF8FBCC",
+                  "cornerRadius": 28,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#F2DCE7"
+                  },
+                  "effect": [
+                    {
+                      "type": "background_blur",
+                      "radius": 24
+                    },
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#F0BFD84D",
+                      "offset": {
+                        "x": 0,
+                        "y": 26
+                      },
+                      "blur": 60
+                    }
+                  ],
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    24,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zF0WT",
+                      "name": "badge",
+                      "fill": "#FFFFFFB5",
+                      "cornerRadius": "$anime--radius-pill",
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o2PGe",
+                          "name": "badgeText",
+                          "fill": "$anime--pink-ink",
+                          "content": "登录",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "GXOIN",
+                      "name": "welcome",
+                      "fill": "$anime--pink-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "欢迎回来",
+                      "fontFamily": "Roboto",
+                      "fontSize": 34,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p6W2n",
+                      "name": "desc",
+                      "fill": "#8B7A89",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "使用账号、邮箱或 GitHub，都可以直接进入首页。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "00i2a",
+                      "name": "tabs",
+                      "gap": 26,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PTtsl",
+                          "name": "tabLogin",
+                          "fill": "$anime--pink-ink",
+                          "content": "登录",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8V10O",
+                          "name": "tabSignup",
+                          "fill": "#BE9AAF",
+                          "content": "创建账号",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "1UzVJ",
+                      "name": "underline",
+                      "fill": "#F18A82",
+                      "width": 98,
+                      "height": 3
+                    },
+                    {
+                      "id": "Xcm9U",
+                      "type": "ref",
+                      "ref": "Z:5wVfn",
+                      "width": "fill_container",
+                      "name": "email",
+                      "x": 28,
+                      "y": 258,
+                      "descendants": {
+                        "Z:u8QE6": {
+                          "width": "fill_container",
+                          "height": "fit_content"
+                        },
+                        "Z:652t2": {
+                          "content": "账号 / 邮箱",
+                          "fill": "#A16885",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "width": "fill_container"
+                        },
+                        "Z:TJYFY": {
+                          "fill": "#FFFFFFD6",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#F0D6E6"
+                          },
+                          "height": 42,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "cornerRadius": 18,
+                          "width": "fill_container",
+                          "y": 24
+                        },
+                        "Z:QEFFJ": {
+                          "content": "用户名",
+                          "fill": "#C0A7B5",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "width": "fill_container",
+                          "x": 14,
+                          "y": 11.5
+                        }
+                      }
+                    },
+                    {
+                      "id": "F0lJw",
+                      "type": "ref",
+                      "ref": "Z:5wVfn",
+                      "width": "fill_container",
+                      "name": "password",
+                      "height": "fit_content",
+                      "x": 28,
+                      "y": 342,
+                      "descendants": {
+                        "Z:u8QE6": {
+                          "width": "fill_container",
+                          "height": "fit_content"
+                        },
+                        "Z:652t2": {
+                          "content": "密码",
+                          "fill": "#A16885",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "700",
+                          "width": "fill_container"
+                        },
+                        "Z:TJYFY": {
+                          "fill": "#E7EEFD",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#D7DDF1"
+                          },
+                          "height": 42,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "cornerRadius": 18,
+                          "width": "fill_container",
+                          "y": 23
+                        },
+                        "Z:QEFFJ": {
+                          "content": "密钥",
+                          "fill": "#AEB6C9",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "500",
+                          "width": "fill_container",
+                          "x": 14,
+                          "y": 11.5
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FB09l",
+                      "name": "rememberWrap",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "VNCAT",
+                          "name": "checkBox",
+                          "width": 16,
+                          "height": 16,
+                          "fill": "$anime--pink-ink",
+                          "cornerRadius": 4,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "qpT9D",
+                              "name": "checkIcon",
+                              "width": 10,
+                              "height": 10,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "3WTJz",
+                          "name": "rememberText",
+                          "fill": "#AE8BA0",
+                          "content": "记住账号",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pnGTG",
+                      "name": "rememberNote",
+                      "fill": "#C2A6B4",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "也可以直接通过 GitHub 快速恢复访问。",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "id": "C8v4c",
+                      "type": "ref",
+                      "ref": "Z:bf6GF",
+                      "width": "fill_container",
+                      "height": 46,
+                      "padding": [
+                        12,
+                        18
+                      ],
+                      "cornerRadius": 22,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#C74884",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FF865F",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "name": "loginBtn",
+                      "x": 28,
+                      "y": 497,
+                      "descendants": {
+                        "Z:RBuHZ": {
+                          "enabled": false
+                        },
+                        "Z:MBpWS": {
+                          "content": "登录",
+                          "fill": "#FFFFFF",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "700",
+                          "x": 121.5,
+                          "y": 11.5
+                        }
+                      }
+                    },
+                    {
+                      "id": "x5vrt",
+                      "type": "ref",
+                      "ref": "Z:Simex",
+                      "width": "fill_container",
+                      "height": 42,
+                      "padding": [
+                        10,
+                        18
+                      ],
+                      "cornerRadius": 21,
+                      "fill": "#FFFFFFB8",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#EED8E7"
+                      },
+                      "name": "githubBtn",
+                      "x": 28,
+                      "y": 561,
+                      "descendants": {
+                        "Z:lgnDy": {
+                          "enabled": false
+                        },
+                        "Z:Ac6zv": {
+                          "content": "GitHub 登录",
+                          "fill": "#5D5561",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "700",
+                          "x": 96
+                        }
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "perU5",
+                      "name": "footer",
+                      "fill": "#B36991",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "第一次来？ 创建账号",
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ASDSJ",
+          "x": 1310,
+          "y": 24,
+          "name": "langPill",
+          "width": 98,
+          "fill": "#FFF7FBCC",
+          "cornerRadius": 22,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F2D5E6"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#F2BDD74D",
+            "offset": {
+              "x": 0,
+              "y": 14
+            },
+            "blur": 30
+          },
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            14,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "KCuPh",
+              "name": "langLabel",
+              "fill": "#AE7A90",
+              "content": "显示语言",
+              "fontFamily": "Geist",
+              "fontSize": 10,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "9cTt9",
+              "name": "langCurrent",
+              "fill": "$anime--pink-ink",
+              "content": "中文",
+              "fontFamily": "Roboto",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "73ra3",
+              "name": "langSwitch",
+              "fill": "#C18AA0",
+              "content": "下一项 English",
+              "fontFamily": "Geist",
+              "fontSize": 11,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "mvRWQ",
+          "x": 96,
+          "y": 0,
+          "name": "gridV1",
+          "fill": "#E9CADB2B",
+          "width": 1,
+          "height": 960
+        },
+        {
+          "type": "rectangle",
+          "id": "iFMk3",
+          "x": 304,
+          "y": 0,
+          "name": "gridV2",
+          "fill": "#E9CADB2B",
+          "width": 1,
+          "height": 960
+        },
+        {
+          "type": "rectangle",
+          "id": "rOxvR",
+          "x": 512,
+          "y": 0,
+          "name": "gridV3",
+          "fill": "#E9CADB2B",
+          "width": 1,
+          "height": 960
+        },
+        {
+          "type": "rectangle",
+          "id": "PECZc",
+          "x": 720,
+          "y": 0,
+          "name": "gridV4",
+          "fill": "#E9CADB2B",
+          "width": 1,
+          "height": 960
+        },
+        {
+          "type": "rectangle",
+          "id": "6kuDG",
+          "x": 928,
+          "y": 0,
+          "name": "gridV5",
+          "fill": "#E9CADB2B",
+          "width": 1,
+          "height": 960
+        },
+        {
+          "type": "rectangle",
+          "id": "NfbrJ",
+          "x": 1136,
+          "y": 0,
+          "name": "gridV6",
+          "fill": "#E9CADB2B",
+          "width": 1,
+          "height": 960
+        },
+        {
+          "type": "rectangle",
+          "id": "WNCGz",
+          "x": 0,
+          "y": 96,
+          "name": "gridH1",
+          "fill": "#E9CADB2B",
+          "width": 1440,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "IHeFJ",
+          "x": 0,
+          "y": 288,
+          "name": "gridH2",
+          "fill": "#E9CADB2B",
+          "width": 1440,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "ikUgO",
+          "x": 0,
+          "y": 480,
+          "name": "gridH3",
+          "fill": "#E9CADB2B",
+          "width": 1440,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "fJN6H",
+          "x": 0,
+          "y": 672,
+          "name": "gridH4",
+          "fill": "#E9CADB2B",
+          "width": 1440,
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "OM7aB",
+          "x": 0,
+          "y": 864,
+          "name": "gridH5",
+          "fill": "#E9CADB2B",
+          "width": 1440,
+          "height": 1
+        },
+        {
+          "type": "ellipse",
+          "id": "nTD3u",
+          "x": 218,
+          "y": 760,
+          "name": "petal1",
+          "rotation": -29.999999999999996,
+          "fill": "#F59AB5AA",
+          "width": 16,
+          "height": 8,
+          "effect": {
+            "type": "blur",
+            "radius": 1
+          }
+        },
+        {
+          "type": "ellipse",
+          "id": "TVS3F",
+          "x": 1230,
+          "y": 846,
+          "name": "petal2",
+          "rotation": 28,
+          "fill": "#F59AB5AA",
+          "width": 14,
+          "height": 7,
+          "effect": {
+            "type": "blur",
+            "radius": 1
+          }
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "anime--aqua": {
+      "type": "color",
+      "value": "#48D6FF"
+    },
+    "anime--font-body": {
+      "type": "string",
+      "value": "Microsoft YaHei UI"
+    },
+    "anime--font-display": {
+      "type": "string",
+      "value": "Yu Gothic UI"
+    },
+    "anime--glow-blue": {
+      "type": "color",
+      "value": "#71CFFF1F"
+    },
+    "anime--glow-pink": {
+      "type": "color",
+      "value": "#FF8DC61A"
+    },
+    "anime--ink": {
+      "type": "color",
+      "value": "#2F2555"
+    },
+    "anime--ink-soft": {
+      "type": "color",
+      "value": "#6F6694"
+    },
+    "anime--line": {
+      "type": "color",
+      "value": "#FFFFFF80"
+    },
+    "anime--line-strong": {
+      "type": "color",
+      "value": "#E8DDFE"
+    },
+    "anime--mint": {
+      "type": "color",
+      "value": "#74E4B3"
+    },
+    "anime--page-blue": {
+      "type": "color",
+      "value": "#DFF4FF"
+    },
+    "anime--page-lilac": {
+      "type": "color",
+      "value": "#F0EAFF"
+    },
+    "anime--page-mist": {
+      "type": "color",
+      "value": "#FFF8FD"
+    },
+    "anime--page-peach": {
+      "type": "color",
+      "value": "#FFD8EA"
+    },
+    "anime--primary": {
+      "type": "color",
+      "value": "#FF67A8"
+    },
+    "anime--primary-deep": {
+      "type": "color",
+      "value": "#FF4B96"
+    },
+    "anime--radius-card": {
+      "type": "number",
+      "value": 32
+    },
+    "anime--radius-pill": {
+      "type": "number",
+      "value": 999
+    },
+    "anime--radius-soft": {
+      "type": "number",
+      "value": 24
+    },
+    "anime--secondary": {
+      "type": "color",
+      "value": "#6D63FF"
+    },
+    "anime--shadow": {
+      "type": "color",
+      "value": "#7F68D933"
+    },
+    "anime--surface": {
+      "type": "color",
+      "value": "#FFFFFFD9"
+    },
+    "anime--surface-strong": {
+      "type": "color",
+      "value": "#FFFFFFF2"
+    },
+    "obs--accent": {
+      "type": "color",
+      "value": "#72A9FF"
+    },
+    "obs--accent-2": {
+      "type": "color",
+      "value": "#C7F1FF"
+    },
+    "obs--bg": {
+      "type": "color",
+      "value": "#080A0E"
+    },
+    "obs--bg-2": {
+      "type": "color",
+      "value": "#0E1420"
+    },
+    "obs--font-body": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "obs--font-display": {
+      "type": "string",
+      "value": "Roboto"
+    },
+    "obs--font-mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "obs--glow": {
+      "type": "color",
+      "value": "#7FAEFF33"
+    },
+    "obs--ink": {
+      "type": "color",
+      "value": "#F5F7FB"
+    },
+    "obs--ink-soft": {
+      "type": "color",
+      "value": "#9AA7BE"
+    },
+    "obs--line": {
+      "type": "color",
+      "value": "#FFFFFF1A"
+    },
+    "obs--line-strong": {
+      "type": "color",
+      "value": "#91B9FF40"
+    },
+    "obs--metal": {
+      "type": "color",
+      "value": "#DCE6F7"
+    },
+    "obs--panel": {
+      "type": "color",
+      "value": "#111723CC"
+    },
+    "obs--panel-solid": {
+      "type": "color",
+      "value": "#151D2A"
+    },
+    "obs--radius-card": {
+      "type": "number",
+      "value": 30
+    },
+    "obs--radius-pill": {
+      "type": "number",
+      "value": 999
+    },
+    "obs--radius-soft": {
+      "type": "number",
+      "value": 22
+    },
+    "obs--shadow": {
+      "type": "color",
+      "value": "#000814A6"
+    },
+    "obs--teal": {
+      "type": "color",
+      "value": "#6DE1D2"
+    },
+    "anime--card-dark": {
+      "type": "color",
+      "value": "#3A324F"
+    },
+    "anime--card-dark-2": {
+      "type": "color",
+      "value": "#191622"
+    },
+    "anime--cream": {
+      "type": "color",
+      "value": "#FFF7F4"
+    },
+    "anime--grid": {
+      "type": "color",
+      "value": "#EECFE233"
+    },
+    "anime--orange": {
+      "type": "color",
+      "value": "#F4A261"
+    },
+    "anime--orange-soft": {
+      "type": "color",
+      "value": "#FFD7B0"
+    },
+    "anime--panel-blue": {
+      "type": "color",
+      "value": "#F4F8FF"
+    },
+    "anime--pink-ink": {
+      "type": "color",
+      "value": "#B84A7E"
+    },
+    "anime--shadow-soft": {
+      "type": "color",
+      "value": "#F39AC44A"
+    }
+  },
+  "imports": {
+    "e": "pencil:shadcn.lib.pen",
+    "H": "pencil:lunaris.lib.pen",
+    "x": "pencil:halo.lib.pen",
+    "Z": "pencil:nitro.lib.pen"
+  }
+}
